@@ -1,5 +1,5 @@
 {
-  "name": "redhat-font",
+  "name": "@redhat/redhat-font",
   "version": "1.0.0",
   "description": "Red Hat - the open source font for Red Hat",
   "main": "red-hat-font.css",
