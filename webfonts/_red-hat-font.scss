@@ -5,7 +5,7 @@
 @mixin printRedHatFont(
   $weightValue: 400,
   $weightName: "normal",
-  $familyName: "RedHatText",
+  $familyName: "Red_Hat_Text",
   $style: "normal",
   $relative: true
   ) {
@@ -24,7 +24,7 @@
       url('#{$filePath}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
       url('#{$filePath}.woff') format('woff'), /* Modern Browsers */
       //url('#{$filePath}.otf') format('OpenType'), /* Safari, Android, iOS */
-      url('#{$filePath}.svg#RedHatDisplay-#{$weightName}') format('svg'); /* Legacy iOS */
+      url('#{$filePath}.svg#Red_Hat_Display-#{$weightName}') format('svg'); /* Legacy iOS */
     font-style: $style;
     font-weight: $weightValue;
     text-rendering: optimizeLegibility;
@@ -44,19 +44,19 @@
 //----------------------
 // Include the Red Hat Display font 
 //---------------------- 
-// @include printRedHatFont(300, Regular, $familyName: "RedHatDisplay"); 
-// @include printRedHatFont(400, Medium, $familyName: "RedHatDisplay");
-// @include printRedHatFont(700, Bold, $familyName: "RedHatDisplay");
+// @include printRedHatFont(300, Regular, $familyName: "Red_Hat_Display"); 
+// @include printRedHatFont(400, Medium, $familyName: "Red_Hat_Display");
+// @include printRedHatFont(700, Bold, $familyName: "Red_Hat_Display");
 //----------------------
 // Include the Red Hat Text font 
 //----------------------
-// @include printRedHatFont(300, Regular, $familyName: "RedHatText", $relative: false);
-// @include printRedHatFont(400, Regular, $familyName: "RedHatText", $relative: false);
-// @include printRedHatFont(700, Medium, $familyName: "RedHatText", $relative: false);
-// @include printRedHatFont(900, Bold, $familyName: "RedHatText", $relative: false);
+// @include printRedHatFont(300, Regular, $familyName: "Red_Hat_Text", $relative: false);
+// @include printRedHatFont(400, Regular, $familyName: "Red_Hat_Text", $relative: false);
+// @include printRedHatFont(700, Medium, $familyName: "Red_Hat_Text", $relative: false);
+// @include printRedHatFont(900, Bold, $familyName: "Red_Hat_Text", $relative: false);
 
 // Example
 // h2 {
-//   font-family: "RedHatDisplay";
+//   font-family: "Red_Hat_Display";
 //   font-weight: 700;
 // }

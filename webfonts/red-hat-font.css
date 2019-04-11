@@ -1,8 +1,8 @@
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Regular.eot");
+  src: url("./RedHatDisplay/Red_Hat_Display-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Regular.woff") format("woff"), url("./RedHatDisplay/RedHatDisplay-Regular.svg#RedHatDisplay-Regular") format("svg");
+  src: url("./RedHatDisplay/Red_Hat_Display-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/Red_Hat_Display-Regular.woff") format("woff"), url("./RedHatDisplay/Red_Hat_Display-Regular.svg#Red_Hat_Display-Regular") format("svg");
   /* Legacy iOS */
   font-style: "normal";
   font-weight: 300;
@@ -10,9 +10,9 @@
 }
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Medium.eot");
+  src: url("./RedHatDisplay/Red_Hat_Display-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Medium.woff") format("woff"), url("./RedHatDisplay/RedHatDisplay-Medium.svg#RedHatDisplay-Medium") format("svg");
+  src: url("./RedHatDisplay/Red_Hat_Display-Medium.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/Red_Hat_Display-Medium.woff") format("woff"), url("./RedHatDisplay/Red_Hat_Display-Medium.svg#Red_Hat_Display-Medium") format("svg");
   /* Legacy iOS */
   font-style: "normal";
   font-weight: 400;
@@ -20,9 +20,9 @@
 }
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Bold.eot");
+  src: url("./RedHatDisplay/Red_Hat_Display-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Bold.woff") format("woff"), url("./RedHatDisplay/RedHatDisplay-Bold.svg#RedHatDisplay-Bold") format("svg");
+  src: url("./RedHatDisplay/Red_Hat_Display-Bold.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/Red_Hat_Display-Bold.woff") format("woff"), url("./RedHatDisplay/Red_Hat_Display-Bold.svg#Red_Hat_Display-Bold") format("svg");
   /* Legacy iOS */
   font-style: "normal";
   font-weight: 700;
@@ -30,9 +30,9 @@
 }
 @font-face {
   font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Regular.eot");
+  src: url("./RedHatText/Red_Hat_Text-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatText/RedHatText-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-Regular.woff") format("woff"), url("./RedHatText/RedHatText-Regular.svg#RedHatDisplay-Regular") format("svg");
+  src: url("./RedHatText/Red_Hat_Text-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatText/Red_Hat_Text-Regular.woff") format("woff"), url("./RedHatText/Red_Hat_Text-Regular.svg#Red_Hat_Display-Regular") format("svg");
   /* Legacy iOS */
   font-style: "normal";
   font-weight: 300;
@@ -40,9 +40,9 @@
 }
 @font-face {
   font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Regular.eot");
+  src: url("./RedHatText/Red_Hat_Text-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatText/RedHatText-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-Regular.woff") format("woff"), url("./RedHatText/RedHatText-Regular.svg#RedHatDisplay-Regular") format("svg");
+  src: url("./RedHatText/Red_Hat_Text-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatText/Red_Hat_Text-Regular.woff") format("woff"), url("./RedHatText/Red_Hat_Text-Regular.svg#Red_Hat_Display-Regular") format("svg");
   /* Legacy iOS */
   font-style: "normal";
   font-weight: 400;
@@ -50,9 +50,9 @@
 }
 @font-face {
   font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Medium.eot");
+  src: url("./RedHatText/Red_Hat_Text-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatText/RedHatText-Medium.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-Medium.woff") format("woff"), url("./RedHatText/RedHatText-Medium.svg#RedHatDisplay-Medium") format("svg");
+  src: url("./RedHatText/Red_Hat_Text-Medium.eot?#iefix") format("embedded-opentype"), url("./RedHatText/Red_Hat_Text-Medium.woff") format("woff"), url("./RedHatText/Red_Hat_Text-Medium.svg#Red_Hat_Display-Medium") format("svg");
   /* Legacy iOS */
   font-style: "normal";
   font-weight: 700;
