@@ -10,7 +10,7 @@
   $relative: true
   ) {
     
-  $filePath: "./" + $familyName + "/" + $familyName + "-" + $weightName;
+  $filePath: "/" + $familyName + "/" + $familyName + "-" + $weightName;
  
   @if $relative == false {
     $filePath: $fontLocation +  "/" + $familyName +  "/" + $familyName + "-" + $weightName;
@@ -38,23 +38,24 @@
 // No compiler? No problem! Paste this file into sassmeister.com
  
 // If you would like to load the font from static.redhat.com, use this variable 
-// $fontLocation: "redhat-font/latest/webfonts"; 
+$fontLocation: "/"; 
 // and set the $relative argument to false when you call the mixin
  
 //----------------------
 // Include the Red Hat Display font 
 //---------------------- 
-// @include printRedHatFont(300, Regular, $familyName: "RedHatDisplay"); 
-// @include printRedHatFont(400, Medium, $familyName: "RedHatDisplay");
-// @include printRedHatFont(700, Bold, $familyName: "RedHatDisplay");
+@include printRedHatFont(300, Regular, $familyName: "RedHatDisplay"); 
+@include printRedHatFont(400, Medium, $familyName: "RedHatDisplay");
+@include printRedHatFont(700, Bold, $familyName: "RedHatDisplay");
+
 //----------------------
 // Include the Red Hat Text font 
 //----------------------
-// @include printRedHatFont(400, Regular, $familyName: "RedHatText", $relative: false);
-// @include printRedHatFont(700, Medium, $familyName: "RedHatText", $relative: false);
-// @include printRedHatFont(900, Bold, $familyName: "RedHatText", $relative: false);
+@include printRedHatFont(400, Regular, $familyName: "RedHatText");
+@include printRedHatFont(700, Medium, $familyName: "RedHatText");
+// @include printRedHatFont(900, Bold, $familyName: "RedHatText");
 
-// Example
+// Example Usage
 // h2 {
 //   font-family: "RedHatDisplay";
 //   font-weight: 700;
