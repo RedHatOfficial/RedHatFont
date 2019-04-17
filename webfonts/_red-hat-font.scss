@@ -4,7 +4,7 @@
 
 @mixin printRedHatFont(
   $weightValue: 400,
-  $weightName: "normal",
+  $weightName: normal,
   $familyName: "RedHatText",
   $style: "normal",
   $relative: true
@@ -22,10 +22,10 @@
       url('#{$filePath}.eot'); /* IE9 Compat Modes */
     src: 
       url('#{$filePath}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-      url('#{$filePath}.woff') format('woff'), /* Modern Browsers */
+      url('#{$filePath}.woff') format('woff'); /* Modern Browsers */
       //url('#{$filePath}.otf') format('OpenType'), /* Safari, Android, iOS */
-      url('#{$filePath}.svg#RedHatDisplay-#{$weightName}') format('svg'); /* Legacy iOS */
-    font-style: $style;
+      //url('#{$filePath}.svg#RedHatDisplay-#{$weightName}') format('svg'); /* Legacy iOS */
+    font-style: #{$style};
     font-weight: $weightValue;
     text-rendering: optimizeLegibility;
   }
@@ -38,24 +38,23 @@
 // No compiler? No problem! Paste this file into sassmeister.com
  
 // If you would like to load the font from static.redhat.com, use this variable 
-// $fontLocation: "redhat-font/latest/webfonts"; 
+// $fontLocation: "/"; 
 // and set the $relative argument to false when you call the mixin
  
 //----------------------
 // Include the Red Hat Display font 
 //---------------------- 
-// @include printRedHatFont(300, Regular, $familyName: "RedHatDisplay"); 
-// @include printRedHatFont(400, Medium, $familyName: "RedHatDisplay");
-// @include printRedHatFont(700, Bold, $familyName: "RedHatDisplay");
+// @include printRedHatFont(300, "Regular", $familyName: "RedHatDisplay"); 
+// @include printRedHatFont(400, "Medium", $familyName: "RedHatDisplay");
+// @include printRedHatFont(700, "Bold", $familyName: "RedHatDisplay");
+
 //----------------------
 // Include the Red Hat Text font 
 //----------------------
-// @include printRedHatFont(300, Regular, $familyName: "RedHatText", $relative: false);
-// @include printRedHatFont(400, Regular, $familyName: "RedHatText", $relative: false);
-// @include printRedHatFont(700, Medium, $familyName: "RedHatText", $relative: false);
-// @include printRedHatFont(900, Bold, $familyName: "RedHatText", $relative: false);
+// @include printRedHatFont(400, "Regular", $familyName: "RedHatText");
+// @include printRedHatFont(700, "Medium", $familyName: "RedHatText");
 
-// Example
+// Example Usage
 // h2 {
 //   font-family: "RedHatDisplay";
 //   font-weight: 700;
