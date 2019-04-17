@@ -8,4 +8,4 @@ Tag: [2.0.0](https://github.com/RedHatOfficial/RedHatFont/commits/2.0.0)
 ## 1.0.0 (2019-03-27)
 Tag: [1.0.0](https://github.com/RedHatOfficial/RedHatFont/commits/1.0.0)
 
-- Initial version of the font
+- The "Red Hat Display" and "Red Hat Text" font families which include regular, medium, & bold weights, as well as the italic style.
