@@ -1,9 +1,3 @@
-// ----
-// Sass (vundefined)
-// Compass (vundefined)
-// dart-sass (v1.18.0)
-// ----
-
 //----------------------
 // Red Hat Font Mixin
 //----------------------
@@ -32,7 +26,6 @@
       //url('#{$filePath}.otf') format('OpenType'), /* Safari, Android, iOS */
       //url('#{$filePath}.svg#RedHatDisplay-#{$weightName}') format('svg'); /* Legacy iOS */
     font-style: #{$style};
-    font-weight: $weightName;
     font-weight: $weightValue;
     text-rendering: optimizeLegibility;
   }
@@ -51,16 +44,15 @@
 //----------------------
 // Include the Red Hat Display font 
 //---------------------- 
-@include printRedHatFont(300, lighter, $familyName: "RedHatDisplay"); 
-@include printRedHatFont(400, normal, $familyName: "RedHatDisplay");
-@include printRedHatFont(700, bold, $familyName: "RedHatDisplay");
+@include printRedHatFont(300, "regular", $familyName: "RedHatDisplay"); 
+@include printRedHatFont(400, "medium", $familyName: "RedHatDisplay");
+@include printRedHatFont(700, "bold", $familyName: "RedHatDisplay");
 
 //----------------------
 // Include the Red Hat Text font 
 //----------------------
-@include printRedHatFont(400, normal, $familyName: "RedHatText");
-@include printRedHatFont(700, bold, $familyName: "RedHatText");
-// @include printRedHatFont(900, Bold, $familyName: "RedHatText");
+@include printRedHatFont(400, "regular", $familyName: "RedHatText");
+@include printRedHatFont(700, "medium", $familyName: "RedHatText");
 
 // Example Usage
 // h2 {
