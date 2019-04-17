@@ -10,7 +10,7 @@
   $relative: true
   ) {
     
-  $filePath: "/" + $familyName + "/" + $familyName + "-" + $weightName;
+  $filePath: "./" + $familyName + "/" + $familyName + "-" + $weightName;
  
   @if $relative == false {
     $filePath: $fontLocation +  "/" + $familyName +  "/" + $familyName + "-" + $weightName;
