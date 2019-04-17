@@ -1,8 +1,8 @@
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-regular.eot");
+  src: url("./RedHatDisplay/RedHatDisplay-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-regular.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-regular.woff") format("woff");
+  src: url("./RedHatDisplay/RedHatDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Regular.woff") format("woff");
   /* Modern Browsers */
   font-style: normal;
   font-weight: 300;
@@ -11,9 +11,9 @@
 
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-medium.eot");
+  src: url("./RedHatDisplay/RedHatDisplay-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-medium.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-medium.woff") format("woff");
+  src: url("./RedHatDisplay/RedHatDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Medium.woff") format("woff");
   /* Modern Browsers */
   font-style: normal;
   font-weight: 400;
@@ -22,9 +22,9 @@
 
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-bold.eot");
+  src: url("./RedHatDisplay/RedHatDisplay-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-bold.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-bold.woff") format("woff");
+  src: url("./RedHatDisplay/RedHatDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Bold.woff") format("woff");
   /* Modern Browsers */
   font-style: normal;
   font-weight: 700;
@@ -33,9 +33,9 @@
 
 @font-face {
   font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-regular.eot");
+  src: url("./RedHatText/RedHatText-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatText/RedHatText-regular.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-regular.woff") format("woff");
+  src: url("./RedHatText/RedHatText-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-Regular.woff") format("woff");
   /* Modern Browsers */
   font-style: normal;
   font-weight: 400;
@@ -44,9 +44,9 @@
 
 @font-face {
   font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-medium.eot");
+  src: url("./RedHatText/RedHatText-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("./RedHatText/RedHatText-medium.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-medium.woff") format("woff");
+  src: url("./RedHatText/RedHatText-Medium.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-Medium.woff") format("woff");
   /* Modern Browsers */
   font-style: normal;
   font-weight: 700;
