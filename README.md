@@ -9,31 +9,13 @@ Jeremy Mickel runs MCKL, a Los Angeles-based design studio publishing original f
 
 ## About Red Hat Display and Red Hat Text
 
-How our words look is as important to our brand voice as the words we choose.
-That’s why we developed a type family that’s all our own.
+Red Hat is an enterprise software company with an open source development model. We use collaboration and knowledge sharing to craft better, more reliable, and more adaptable technologies. How our words look is as important to our brand voice as the words we choose. That’s why we developed a type family that’s all our own.
 
-Red Hat is an enterprise software company with an open source development model. We use collaboration and knowledge sharing to craft better, more reliable, and more adaptable technologies.
+The Red Hat type family is produced in 2 optical sizes, in a range of weights with italics. The fonts were originally commissioned by Paula Scher / Pentagram and designed by Jeremy Mickel / MCKL for the new Red Hat identity.
 
-Red Hat Display is made for headlines and big statements. It’s an embodiment of
-our brand’s personality—open, straightforward, rational—but friendly and
-approachable, too.
+Red Hat is a fresh take on the geometric sans genre, taking inspiration from a range of American sans serifs including Tempo and Highway Gothic. The Display styles, made for headlines and big statements, are low contrast and spaced tightly, with a large x-height and open counters. The Text styles have a slightly smaller x-height and narrower width for better legibility, are spaced more generously, and have thinned joins for better performance at small sizes. The two families can be used together seamlessly at a range of sizes.
 
-Red Hat Display comes in four weights, each with italics.
-
-Because we’re Red Hat, we aren’t keeping our work to ourselves. Like Liberation
-and Overpass, Red Hat Display is an open source font under the SIL license, and
-is available for anyone to use.
-
-Red Hat Text takes all that personality and optimizes it for more demanding
-applications. It’s more condensed and has more space around each letter, so that
-it’s easy to read in paragraphs, like a whitepaper, or at small sizes, like a tooltip in
-an interface.
-
-Red Hat Text comes in three weights, each with italics.
-
-Red Hat Text is also an open source font under the SIL license, and is available for
-anyone to use.
-
+As part of Red Hat’s commitment to open source software, the fonts are made available for use under the SIL Open Font License.
 
 ## Bug reports and improvement requests
 
