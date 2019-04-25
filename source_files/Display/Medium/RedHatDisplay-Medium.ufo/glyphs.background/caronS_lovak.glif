@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caronSlovak" format="2">
+  <advance width="404"/>
+  <outline>
+    <contour>
+      <point x="168" y="716" type="line"/>
+      <point x="161" y="496" type="line"/>
+      <point x="231" y="496" type="line"/>
+      <point x="268" y="716" type="line"/>
+    </contour>
+  </outline>
+</glyph>

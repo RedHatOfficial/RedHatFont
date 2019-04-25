@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cordinal" format="2">
+  <advance width="410"/>
+  <outline>
+    <contour>
+      <point x="279" y="396" type="curve" smooth="yes"/>
+      <point x="224" y="396"/>
+      <point x="186" y="437"/>
+      <point x="186" y="493" type="curve" smooth="yes"/>
+      <point x="186" y="560"/>
+      <point x="236" y="616"/>
+      <point x="295" y="616" type="curve" smooth="yes"/>
+      <point x="333" y="616"/>
+      <point x="363" y="599"/>
+      <point x="387" y="564" type="curve"/>
+      <point x="459" y="629" type="line"/>
+      <point x="425" y="680"/>
+      <point x="364" y="710"/>
+      <point x="298" y="710" type="curve" smooth="yes"/>
+      <point x="178" y="710"/>
+      <point x="81" y="611"/>
+      <point x="81" y="487" type="curve" smooth="yes"/>
+      <point x="81" y="381"/>
+      <point x="160" y="302"/>
+      <point x="268" y="302" type="curve" smooth="yes"/>
+      <point x="324" y="302"/>
+      <point x="378" y="324"/>
+      <point x="422" y="364" type="curve"/>
+      <point x="367" y="435" type="line"/>
+      <point x="340" y="409"/>
+      <point x="312" y="396"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.AWHW3nlO1Z</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.Bv1rynWzTY</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.y5ZavQQJwR</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

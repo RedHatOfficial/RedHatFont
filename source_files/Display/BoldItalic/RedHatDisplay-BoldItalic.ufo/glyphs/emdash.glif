@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash" format="2">
+  <advance width="695"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="58" y="343" type="line"/>
+      <point x="33" y="227" type="line"/>
+      <point x="647" y="227" type="line"/>
+      <point x="672" y="343" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.1TTPVRoPqC</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.OBSaKiqWRV</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.oZVYuT3RoJ</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

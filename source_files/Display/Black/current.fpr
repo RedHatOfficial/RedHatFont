@@ -1,0 +1,7 @@
+InputFontPath	./RedHatDisplay-Black_source.ttf
+ReleaseMode	true
+FeaturePath	./features
+FontMenuDBPath	../../FontMenuNameDB
+GlyphAliasDBPath	../../GlyphOrderAndAliasDB
+OutputFontPath	./RedHatDisplay-Black.ttf
+kSetfsSelectionBitsOn	[8]

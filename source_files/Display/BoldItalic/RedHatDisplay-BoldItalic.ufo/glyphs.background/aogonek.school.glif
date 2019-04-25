@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek.school" format="2">
+  <advance width="619"/>
+  <outline>
+    <component base="a.school"/>
+    <component base="ogonek" xOffset="246"/>
+    <component base="a.school"/>
+    <component base="ogonek" xOffset="246"/>
+  </outline>
+</glyph>

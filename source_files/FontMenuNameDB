@@ -1,0 +1,70 @@
+[RedHatText-Regular]
+	f=Red Hat Text
+	s=Regular
+
+[RedHatText-Italic]
+	f=Red Hat Text
+	s=Italic
+
+[RedHatText-Bold]
+	f=Red Hat Text
+	s=Bold
+
+[RedHatText-BoldItalic]
+	f=Red Hat Text
+	s=Bold Italic
+
+[RedHatText-Medium]
+	f=Red Hat Text
+	s=Medium
+	l=Red Hat Text Medium
+	m=1,Red Hat Text Medium
+
+[RedHatText-MediumItalic]
+	f=Red Hat Text
+	s=Medium Italic
+	l=Red Hat Text Medium
+	m=1,Red Hat Text Medium Italic
+
+
+[RedHatDisplay-Regular]
+	f=Red Hat Display
+	s=Regular
+
+[RedHatDisplay-Italic]
+	f=Red Hat Display
+	s=Italic
+
+[RedHatDisplay-Bold]
+	f=Red Hat Display
+	s=Bold
+
+[RedHatDisplay-BoldItalic]
+	f=Red Hat Display
+	s=Bold Italic
+
+[RedHatDisplay-Medium]
+	f=Red Hat Display
+	s=Medium
+	l=Red Hat Display Medium
+	m=1,Red Hat Display Medium
+
+[RedHatDisplay-MediumItalic]
+	f=Red Hat Display
+	s=Medium Italic
+	l=Red Hat Display Medium
+	m=1,Red Hat Display Medium Italic
+
+[RedHatDisplay-Black]
+	f=Red Hat Display
+	s=Black
+	l=Red Hat Display Black
+	m=1,Red Hat Display Black
+
+[RedHatDisplay-BlackItalic]
+	f=Red Hat Display
+	s=Black Italic
+	l=Red Hat Display Black
+	m=1,Red Hat Display Black Italic
+
+

@@ -1,0 +1,23 @@
+table hhea {
+    Ascender 1018;
+    Descender -305;
+    LineGap 0;
+} hhea;
+
+table OS/2 {
+    FSType 0;
+    Panose 2 1 10 3 4 2 1 13 3 3;
+    TypoAscender 1018;
+    TypoDescender -305;
+    TypoLineGap 0;
+    winAscent 1018;
+    winDescent 305;
+    XHeight 529;
+    CapHeight 700;
+    WeightClass 900;
+    WidthClass 5;
+	Vendor "MCKL";
+} OS/2;
+
+include (../features.family);
+include (RedHatDisplay-BlackItalic kern.fea);

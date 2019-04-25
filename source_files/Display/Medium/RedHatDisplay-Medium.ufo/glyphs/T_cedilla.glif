@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tcedilla" format="2">
+  <advance width="631"/>
+  <unicode hex="0162"/>
+  <outline>
+    <contour>
+      <point x="17" y="607" type="line"/>
+      <point x="263" y="607" type="line"/>
+      <point x="263" y="0" type="line"/>
+      <point x="289" y="0" type="line"/>
+      <point x="262" y="-93" type="line"/>
+      <point x="296" y="-93" type="line" smooth="yes"/>
+      <point x="335" y="-93"/>
+      <point x="359" y="-110"/>
+      <point x="359" y="-136" type="curve"/>
+      <point x="359" y="-163"/>
+      <point x="337" y="-181"/>
+      <point x="299" y="-181" type="curve"/>
+      <point x="270" y="-181"/>
+      <point x="243" y="-170"/>
+      <point x="218" y="-150" type="curve"/>
+      <point x="182" y="-189" type="line"/>
+      <point x="213" y="-217"/>
+      <point x="254" y="-231"/>
+      <point x="300" y="-231" type="curve"/>
+      <point x="371" y="-231"/>
+      <point x="422" y="-191"/>
+      <point x="422" y="-136" type="curve"/>
+      <point x="422" y="-87"/>
+      <point x="385" y="-55"/>
+      <point x="327" y="-51" type="curve"/>
+      <point x="342" y="0" type="line"/>
+      <point x="368" y="0" type="line"/>
+      <point x="368" y="607" type="line"/>
+      <point x="614" y="607" type="line"/>
+      <point x="614" y="700" type="line"/>
+      <point x="17" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

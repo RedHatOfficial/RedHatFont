@@ -1,0 +1,7 @@
+InputFontPath	./RedHatDisplay-Medium_source.ttf
+ReleaseMode	true
+FeaturePath	./features
+FontMenuDBPath	../../FontMenuNameDB
+GlyphAliasDBPath	../../GlyphOrderAndAliasDB
+OutputFontPath	./RedHatDisplay-Medium.ttf
+kSetfsSelectionBitsOn	[8]

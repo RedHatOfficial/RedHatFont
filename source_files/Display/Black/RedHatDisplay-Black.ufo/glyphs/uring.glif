@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uring" format="2">
+  <advance width="611"/>
+  <unicode hex="016F"/>
+  <outline>
+    <component base="u"/>
+    <component base="ring" xOffset="48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

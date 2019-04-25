@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessi" format="2">
+  <advance width="240"/>
+  <unicode hex="0131"/>
+  <anchor x="175" y="521" name="top"/>
+  <anchor x="132" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="242" y="521" type="line"/>
+      <point x="108" y="521" type="line"/>
+      <point x="-2" y="0" type="line"/>
+      <point x="132" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.M5QXaMOTBT</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.WPp3aovRVD</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.YRXwvdlc1z</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.k4WbWZIlfl</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.sDmz4dqJ1T</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

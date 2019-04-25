@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight" format="2">
+  <advance width="614"/>
+  <unicode hex="0038"/>
+  <note>
+Version created Tue Sep 18 15:49:42 2018
+</note>
+  <outline>
+    <contour>
+      <point x="307" y="-10" type="curve"/>
+      <point x="452" y="-10"/>
+      <point x="556" y="73"/>
+      <point x="556" y="189" type="curve" smooth="yes"/>
+      <point x="556" y="275"/>
+      <point x="489" y="346"/>
+      <point x="392" y="369" type="curve"/>
+      <point x="474" y="392"/>
+      <point x="530" y="455"/>
+      <point x="530" y="529" type="curve" smooth="yes"/>
+      <point x="530" y="633"/>
+      <point x="434" y="711"/>
+      <point x="307" y="711" type="curve"/>
+      <point x="180" y="711"/>
+      <point x="85" y="633"/>
+      <point x="85" y="529" type="curve" smooth="yes"/>
+      <point x="85" y="455"/>
+      <point x="141" y="392"/>
+      <point x="223" y="369" type="curve"/>
+      <point x="126" y="346"/>
+      <point x="58" y="274"/>
+      <point x="58" y="189" type="curve" smooth="yes"/>
+      <point x="58" y="74"/>
+      <point x="163" y="-10"/>
+    </contour>
+    <contour>
+      <point x="307" y="399" type="curve"/>
+      <point x="222" y="399"/>
+      <point x="155" y="454"/>
+      <point x="155" y="526" type="curve"/>
+      <point x="155" y="598"/>
+      <point x="221" y="653"/>
+      <point x="307" y="653" type="curve"/>
+      <point x="394" y="653"/>
+      <point x="460" y="598"/>
+      <point x="460" y="526" type="curve"/>
+      <point x="460" y="454"/>
+      <point x="393" y="399"/>
+    </contour>
+    <contour>
+      <point x="307" y="49" type="curve"/>
+      <point x="206" y="49"/>
+      <point x="129" y="112"/>
+      <point x="129" y="194" type="curve"/>
+      <point x="129" y="275"/>
+      <point x="206" y="337"/>
+      <point x="307" y="337" type="curve"/>
+      <point x="408" y="337"/>
+      <point x="485" y="275"/>
+      <point x="485" y="194" type="curve"/>
+      <point x="485" y="112"/>
+      <point x="408" y="49"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.FbEoS9b7iL</key>
+      <real>2.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.zDAQHnIhTB</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.showMeasurements.FbEoS9b7iL</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>
