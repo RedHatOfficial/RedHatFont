@@ -1,4 +1,4 @@
-## 2.1.0 (2019-04-17)
+## 2.1.0 (2019-04-25)
 Tag: [2.1.0](https://github.com/RedHatOfficial/RedHatFont/commits/2.1.0)
 
 - Add source files to repo to to support Google Fonts
