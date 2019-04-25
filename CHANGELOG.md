@@ -1,3 +1,8 @@
+## 2.2.0 (2019-04-25)
+Tag: [2.2.0](https://github.com/RedHatOfficial/RedHatFont/commits/2.2.0)
+
+- README update
+
 ## 2.1.0 (2019-04-25)
 Tag: [2.1.0](https://github.com/RedHatOfficial/RedHatFont/commits/2.1.0)
 
