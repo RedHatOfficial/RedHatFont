@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen" format="2">
+  <advance width="470"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="51" y="354" type="line"/>
+      <point x="51" y="219" type="line"/>
+      <point x="419" y="219" type="line"/>
+      <point x="419" y="354" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.4d2rVztQEW</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.53G3ju7SUM</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.iHlEhtm93A</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

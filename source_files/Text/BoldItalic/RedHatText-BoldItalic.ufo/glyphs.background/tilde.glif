@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tilde" format="2">
+  <advance width="510"/>
+  <unicode hex="02DC"/>
+  <outline>
+    <contour>
+      <point x="209" y="594" type="line"/>
+      <point x="231" y="645"/>
+      <point x="245" y="662"/>
+      <point x="264" y="662" type="curve"/>
+      <point x="305" y="662"/>
+      <point x="349" y="590"/>
+      <point x="419" y="590" type="curve" smooth="yes"/>
+      <point x="470" y="590"/>
+      <point x="513" y="634"/>
+      <point x="553" y="725" type="curve"/>
+      <point x="470" y="755" type="line"/>
+      <point x="445" y="700"/>
+      <point x="436" y="688"/>
+      <point x="421" y="688" type="curve"/>
+      <point x="384" y="688"/>
+      <point x="331" y="760"/>
+      <point x="265" y="760" type="curve" smooth="yes"/>
+      <point x="212" y="760"/>
+      <point x="167" y="717"/>
+      <point x="127" y="625" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

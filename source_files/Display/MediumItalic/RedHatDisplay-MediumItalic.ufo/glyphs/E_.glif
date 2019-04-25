@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E" format="2">
+  <advance width="616"/>
+  <unicode hex="0045"/>
+  <anchor x="412" y="700" name="top"/>
+  <anchor x="525" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="16" y="0" type="line"/>
+      <point x="525" y="0" type="line"/>
+      <point x="545" y="92" type="line"/>
+      <point x="138" y="92" type="line"/>
+      <point x="184" y="308" type="line"/>
+      <point x="448" y="308" type="line"/>
+      <point x="467" y="398" type="line"/>
+      <point x="203" y="398" type="line"/>
+      <point x="247" y="608" type="line"/>
+      <point x="651" y="608" type="line"/>
+      <point x="670" y="700" type="line"/>
+      <point x="165" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.XecOzkCbmW</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.lRhohCeyZm</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

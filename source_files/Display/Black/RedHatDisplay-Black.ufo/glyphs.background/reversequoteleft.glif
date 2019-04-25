@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversequoteleft" format="2">
+  <advance width="258"/>
+  <outline>
+    <contour>
+      <point x="176" y="750" type="line"/>
+      <point x="9" y="750" type="line"/>
+      <point x="128" y="466" type="line"/>
+      <point x="249" y="466" type="line"/>
+    </contour>
+  </outline>
+</glyph>

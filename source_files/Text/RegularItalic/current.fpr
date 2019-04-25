@@ -1,0 +1,8 @@
+InputFontPath	./RedHatText-RegularItalic_source.ttf
+ReleaseMode	true
+FeaturePath	./features
+FontMenuDBPath	../../FontMenuNameDB
+GlyphAliasDBPath	../../GlyphOrderAndAliasDB
+IsItalicStyle	true
+OutputFontPath	./RedHatText-RegularItalic.ttf
+kSetfsSelectionBitsOn	[8, 9]

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek.school" format="2">
+  <advance width="582"/>
+  <outline>
+    <contour>
+      <point x="434" y="0" type="line"/>
+      <point x="452" y="0" type="line"/>
+      <point x="382" y="-50"/>
+      <point x="353" y="-91"/>
+      <point x="353" y="-140" type="curve"/>
+      <point x="353" y="-195"/>
+      <point x="395" y="-231"/>
+      <point x="459" y="-231" type="curve"/>
+      <point x="486" y="-231"/>
+      <point x="513" y="-224"/>
+      <point x="532" y="-212" type="curve"/>
+      <point x="518" y="-173" type="line"/>
+      <point x="506" y="-181"/>
+      <point x="487" y="-185"/>
+      <point x="470" y="-185" type="curve"/>
+      <point x="428" y="-185"/>
+      <point x="403" y="-164"/>
+      <point x="403" y="-128" type="curve"/>
+      <point x="403" y="-87"/>
+      <point x="435" y="-47"/>
+      <point x="507" y="0" type="curve"/>
+      <point x="507" y="488" type="line"/>
+      <point x="434" y="488" type="line"/>
+      <point x="434" y="426" type="line"/>
+      <point x="395" y="470"/>
+      <point x="342" y="494"/>
+      <point x="282" y="494" type="curve"/>
+      <point x="153" y="494"/>
+      <point x="53" y="384"/>
+      <point x="53" y="243" type="curve" smooth="yes"/>
+      <point x="53" y="103"/>
+      <point x="151" y="-7"/>
+      <point x="278" y="-7" type="curve"/>
+      <point x="342" y="-7"/>
+      <point x="397" y="18"/>
+      <point x="434" y="65" type="curve"/>
+    </contour>
+    <contour>
+      <point x="125" y="244" type="curve" smooth="yes"/>
+      <point x="125" y="351"/>
+      <point x="198" y="430"/>
+      <point x="296" y="430" type="curve"/>
+      <point x="351" y="430"/>
+      <point x="402" y="405"/>
+      <point x="434" y="364" type="curve"/>
+      <point x="434" y="122" type="line"/>
+      <point x="403" y="80"/>
+      <point x="353" y="57"/>
+      <point x="296" y="57" type="curve"/>
+      <point x="198" y="57"/>
+      <point x="125" y="137"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

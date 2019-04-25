@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="220"/>
+  <unicode hex="006C"/>
+  <anchor x="203" y="700" name="top"/>
+  <anchor x="57" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="245" y="730" type="line"/>
+      <point x="171" y="715" type="line"/>
+      <point x="21" y="0" type="line"/>
+      <point x="93" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>SBAlt</key>
+      <string>left</string>
+    </dict>
+  </lib>
+</glyph>

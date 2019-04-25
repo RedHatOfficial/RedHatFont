@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversequotedblleft" format="2">
+  <advance width="426"/>
+  <outline>
+    <contour>
+      <point x="190" y="750" type="line"/>
+      <point x="76" y="750" type="line"/>
+      <point x="140" y="486" type="line"/>
+      <point x="223" y="486" type="line"/>
+    </contour>
+    <contour>
+      <point x="382" y="750" type="line"/>
+      <point x="267" y="750" type="line"/>
+      <point x="332" y="486" type="line"/>
+      <point x="415" y="486" type="line"/>
+    </contour>
+  </outline>
+</glyph>

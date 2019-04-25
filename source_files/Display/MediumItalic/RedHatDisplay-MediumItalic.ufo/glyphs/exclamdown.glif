@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown" format="2">
+  <advance width="210"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <component base="exclam" xScale="-1" yScale="-1" xOffset="251" yOffset="703"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.2V62fttru6</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.2gIryhMM6S</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.NoAEDe3b1e</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.NxApnrOgNh</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.SjoCyDFycZ</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

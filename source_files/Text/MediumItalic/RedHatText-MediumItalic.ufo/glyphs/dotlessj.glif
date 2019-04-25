@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessj" format="2">
+  <advance width="249"/>
+  <unicode hex="0237"/>
+  <anchor x="179" y="501" name="top"/>
+  <outline>
+    <contour>
+      <point x="-122" y="-206" type="line"/>
+      <point x="-107" y="-212"/>
+      <point x="-76" y="-217"/>
+      <point x="-53" y="-217" type="curve" smooth="yes"/>
+      <point x="32" y="-217"/>
+      <point x="91" y="-167"/>
+      <point x="110" y="-80" type="curve" smooth="yes"/>
+      <point x="235" y="501" type="line"/>
+      <point x="123" y="501" type="line"/>
+      <point x="1" y="-71" type="line" smooth="yes"/>
+      <point x="-7" y="-107"/>
+      <point x="-25" y="-122"/>
+      <point x="-58" y="-122" type="curve" smooth="yes"/>
+      <point x="-77" y="-122"/>
+      <point x="-91" y="-120"/>
+      <point x="-103" y="-116" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>SBAlt</key>
+      <string>right</string>
+      <key>com.typemytype.robofont.guideline.magnetic.97LX7XXmhx</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.B9U8lrZ7hq</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.ZSwIafhTlO</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.lIgCNpJWfY</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.vcsBhI9HU1</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

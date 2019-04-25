@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00AD" format="2">
+  <advance width="473"/>
+  <unicode hex="00AD"/>
+  <outline>
+    <component base="hyphen"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.6yiHpw1r7N</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.I4autshMd4</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.tw5aiKNjNg</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

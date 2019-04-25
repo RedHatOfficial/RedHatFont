@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash.cap" format="2">
+  <advance width="702"/>
+  <outline>
+    <component base="emdash" yOffset="65"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.GQIyMUub37</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.IdDhkqAuay</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.JdQ9989eTh</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

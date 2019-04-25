@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="questiondown" format="2">
+  <advance width="496"/>
+  <unicode hex="00BF"/>
+  <outline>
+    <component base="question" xScale="-1" yScale="-1" xOffset="539" yOffset="703"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.KHMLoJl0Y2</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.NVuLzBB4vL</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.NfVRjmb1DX</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.QPPeQvs3JH</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.iHdMHo2nFi</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

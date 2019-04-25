@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="706"/>
+  <unicode hex="0059"/>
+  <anchor x="353" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="280" y="0" type="line"/>
+      <point x="425" y="0" type="line"/>
+      <point x="425" y="267" type="line"/>
+      <point x="712" y="700" type="line"/>
+      <point x="554" y="700" type="line"/>
+      <point x="357" y="396" type="line"/>
+      <point x="161" y="700" type="line"/>
+      <point x="-6" y="700" type="line"/>
+      <point x="280" y="268" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>SBAlt</key>
+      <string>right</string>
+    </dict>
+  </lib>
+</glyph>
