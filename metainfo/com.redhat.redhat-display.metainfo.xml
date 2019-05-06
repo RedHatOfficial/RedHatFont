@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="font">
+  <id>com.redhat.redhat-display</id>
+  <project_license>OFL-1.1</project_license>
+  <metadata_license>CC-BY-SA-4.0</metadata_license>
+  <name>Red Hat Display</name>
+  <summary>Red Hat Display font family</summary>
+  <description>
+    <p>Red Hat is a fresh take on the geometric sans genre,
+       taking inspiration from a range of American sans serifs
+       including Tempo and Highway Gothic.
+    </p>
+    <p>The Display styles, made for headlines and big statements,
+       are low contrast and spaced tightly, with a large x-height and open counters.
+    </p>
+    <p>The fonts were originally commissioned by Paula Scher / Pentagram
+       and designed by Jeremy Mickel / MCKL for the new Red Hat identity.
+    </p>
+  </description>
+  <update_contact>brand@redhat.com</update_contact>
+  <url type="homepage">https://github.com/RedHatOfficial/RedHatFont</url>
+</component>
