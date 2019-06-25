@@ -1,3 +1,9 @@
+## 2.3.0 (2019-06-24)
+Tag: [2.3.0](https://github.com/RedHatOfficial/RedHatFont/commits/2.3.0)
+
+- Revised the italic ‘fontinfo’ files, to meet Google Font standards
+- Added the build.py, build_ttf.py, ttf_postprocess.py files for building the mastered fonts
+
 ## 2.2.0 (2019-04-25)
 Tag: [2.2.0](https://github.com/RedHatOfficial/RedHatFont/commits/2.2.0)
 
