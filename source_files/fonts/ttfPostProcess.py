@@ -105,6 +105,13 @@ def nameTableTweak(font):
                     nameTable.names.append(record)
                     
                     
+def fsSelectionTweak(filename, font):
+    # RedHatText-Medium.ttf --> Medium
+    font_style = filename.split("-")[-1][:-4]
+    if font_style not in ["Regular", "Italic", "Bold", "BoldItalic"]:
+        if "Italic" not in font_style:
+            font["OS/2"].fsSelection |= 2**6
+
                 
 def processFont(path, d):
     
@@ -117,6 +124,9 @@ def processFont(path, d):
 
     # Remove Mac ID 16 and 17
     nameTableTweak(font)
+
+    # Enable fsSelection bit 6 (Regular) for non RIBBI fonts
+    fsSelectionTweak(f, font)
 
     font.save(new)
 
