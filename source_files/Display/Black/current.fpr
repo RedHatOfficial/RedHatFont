@@ -1,7 +1,8 @@
-InputFontPath	./RedHatDisplay-Black_source.ttf
+SuppressHintWarnings	true
+InputFontPath	RedHatDisplay-Black_source.ttf
 ReleaseMode	true
-FeaturePath	./features
+kSetfsSelectionBitsOn	[6, 8]
+FeaturePath	features
 FontMenuDBPath	../../FontMenuNameDB
 GlyphAliasDBPath	../../GlyphOrderAndAliasDB
-OutputFontPath	./RedHatDisplay-Black.ttf
-kSetfsSelectionBitsOn	[8]
+OutputFontPath	RedHatDisplay-Black.ttf

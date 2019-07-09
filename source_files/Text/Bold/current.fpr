@@ -1,8 +1,9 @@
-InputFontPath	./RedHatText-Bold_source.ttf
+SuppressHintWarnings	true
+InputFontPath	RedHatText-Bold_source.ttf
 ReleaseMode	true
-FeaturePath	./features
+FeaturePath	features
 FontMenuDBPath	../../FontMenuNameDB
 GlyphAliasDBPath	../../GlyphOrderAndAliasDB
 IsBoldStyle	true
-OutputFontPath	./RedHatText-Bold.ttf
+OutputFontPath	RedHatText-Bold.ttf
 kSetfsSelectionBitsOn	[8]
