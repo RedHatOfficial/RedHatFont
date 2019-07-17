@@ -1,8 +1,9 @@
-InputFontPath	./RedHatText-MediumItalic_source.ttf
+SuppressHintWarnings	true
+InputFontPath	RedHatText-MediumItalic_source.ttf
 ReleaseMode	true
-FeaturePath	./features
+FeaturePath	features
 FontMenuDBPath	../../FontMenuNameDB
 GlyphAliasDBPath	../../GlyphOrderAndAliasDB
 IsItalicStyle	true
-OutputFontPath	./RedHatText-MediumItalic.ttf
-kSetfsSelectionBitsOn	[8, 9]
+OutputFontPath	RedHatText-MediumItalic.ttf
+kSetfsSelectionBitsOn	[8]

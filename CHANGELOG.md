@@ -1,3 +1,10 @@
+## 2.3.1 (2019-07-16)
+Tag: [2.3.1](https://github.com/RedHatOfficial/RedHatFont/commits/2.3.1)
+
+- Set the OS/2 fsSelection bit 6 to on for both the TTF and OTF fonts that are not Roman, Bold, Italic or Bold Italic
+- Turned off setting the OS/2 fsSelection bit 9 for italic fonts (the Oblique bit)
+- Bumped font version to 1.005
+
 ## 2.3.0 (2019-06-24)
 Tag: [2.3.0](https://github.com/RedHatOfficial/RedHatFont/commits/2.3.0)
 

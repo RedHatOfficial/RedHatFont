@@ -8,7 +8,7 @@ from fontTools import ttLib
 from fontTools.ttLib.tables._k_e_r_n import KernTable_format_0
 
 
-def makeotf(outlineSourcePath, featuresPath=None, glyphOrderPath=None, menuNamePath=None, fontInfoPath=None, releaseMode=True):
+def makeotf(outlineSourcePath, featuresPath=None, glyphOrderPath=None, menuNamePath=None, fontInfoPath=None, releaseMode=True, setOS2Bit6=False):
     """
     Run makeotf.
     The arguments will be converted into arguments
@@ -23,7 +23,7 @@ def makeotf(outlineSourcePath, featuresPath=None, glyphOrderPath=None, menuNameP
     releaseMode        -r
     =================  ===
     """
-    cmds = ["makeotf", "-f", outlineSourcePath]
+    cmds = ["makeotf", "-nshw", "-sp", "-f", outlineSourcePath]
     if featuresPath:
         cmds.extend(["-ff", featuresPath])
     if glyphOrderPath:
@@ -34,6 +34,9 @@ def makeotf(outlineSourcePath, featuresPath=None, glyphOrderPath=None, menuNameP
         cmds.extend(["-fi", fontInfoPath])
     if releaseMode:
         cmds.append("-r")
+    if setOS2Bit6:
+        cmds.extend(["-osbOn", "6"])
+        cmds.extend(["-osbOn", "8"])
     stderr, stdout = _execute(cmds)
     return stderr, stdout
 
@@ -328,7 +331,15 @@ def main():
     result = ""
     for file in files:
         print file
-        stderr, stdout = makeotf(file)
+        six = False
+        font_style = file.split("-")[-1][:-4]
+        if font_style not in ["Regular", "Italic", "Bold", "BoldItalic"]:
+            if "Italic" not in font_style:
+                six = True
+        if six:
+            stderr, stdout = makeotf(file, setOS2Bit6=True)
+        else:
+            stderr, stdout = makeotf(file)
         result += '------------------\nOutput for: ' + file + '\n\n'+ stderr + stdout
     path = os.path.join(os.getcwd(), 'makeOTF_report.txt')
     print path

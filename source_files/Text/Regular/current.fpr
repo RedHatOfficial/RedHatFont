@@ -1,7 +1,8 @@
-InputFontPath	./RedHatText-Regular_source.ttf
+SuppressHintWarnings	true
+InputFontPath	RedHatText-Regular_source.ttf
 ReleaseMode	true
-FeaturePath	./features
+FeaturePath	features
 FontMenuDBPath	../../FontMenuNameDB
 GlyphAliasDBPath	../../GlyphOrderAndAliasDB
-OutputFontPath	./RedHatText-Regular.ttf
+OutputFontPath	RedHatText-Regular.ttf
 kSetfsSelectionBitsOn	[8]
