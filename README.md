@@ -9,6 +9,8 @@ Jeremy Mickel runs MCKL, a Los Angeles-based design studio publishing original f
 
 ## About Red Hat Display and Red Hat Text
 
+<img src='type-specimen@2x.png' width='752' height='393' />
+
 Red Hat is an enterprise software company with an open source development model. We use collaboration and knowledge sharing to craft better, more reliable, and more adaptable technologies. How our words look is as important to our brand voice as the words we choose. That’s why we developed a type family that’s all our own.
 
 The Red Hat type family is produced in 2 optical sizes, in a range of weights with italics. The fonts were originally commissioned by Paula Scher / Pentagram and designed by Jeremy Mickel / MCKL for the new Red Hat identity.
