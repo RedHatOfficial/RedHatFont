@@ -1,3 +1,11 @@
+## 2.3.2 (2019-07-28)
+Tag: [2.3.2](https://github.com/RedHatOfficial/RedHatFont/commits/2.3.2)
+
+- Add font preview image to README
+- Remove `_DS_Store` files
+- Add information about font installation
+- Add basic AppStream metainfo data
+
 ## 2.3.1 (2019-07-16)
 Tag: [2.3.1](https://github.com/RedHatOfficial/RedHatFont/commits/2.3.1)
 
