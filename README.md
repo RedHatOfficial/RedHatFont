@@ -19,6 +19,15 @@ Red Hat is a fresh take on the geometric sans genre, taking inspiration from a r
 
 As part of Red Hat’s commitment to open source software, the fonts are made available for use under the SIL Open Font License.
 
+## Installation
+
+The OTF or TTF folders contain the font files used by most user operating systems.
+
+If you are running Homebrew, you can install the fonts with the following:
+```
+brew cask install homebrew/cask-fonts/font-redhat
+```
+
 ## Bug reports and improvement requests
 
 If you find a problem with a font file or have a request for future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/RedHatOfficial/RedHatFont/issues).
@@ -31,6 +40,6 @@ Since all the fonts available here are licensed with permission to redistribute,
 
 Copyright 2019 Red Hat, Inc.
 
-Licensed under the SIL Open Font License, Version 1.1, with Reserved Font Name Red Hat. 
+Licensed under the SIL Open Font License, Version 1.1, with Reserved Font Name Red Hat.
 
 The SIL OFL does not grant any rights under trademark law and all such rights are reserved. Modified versions must be renamed to avoid use of any Red Hat trademarks, including but not limited to "Red Hat".
