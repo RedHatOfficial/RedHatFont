@@ -22,6 +22,13 @@ As part of Red Hat’s commitment to open source software, the fonts are made av
 
 The OTF or TTF folders contain the font files used by most user operating systems.
 
+If you are running Fedora, Red Hat Enterprise Linux 7, CentOS 7, or any similar derivatives, you can install the fonts with the following:
+```
+sudo yum install redhat-display-fonts redhat-text-fonts
+```
+Note that Red Hat Enterprise Linux/CentOS users will need to [enable Fedora EPEL first](https://fedoraproject.org/wiki/EPEL).
+
+
 If you are running Homebrew, you can install the fonts with the following:
 
 ```text
