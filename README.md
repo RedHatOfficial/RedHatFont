@@ -6,10 +6,9 @@
 
 Jeremy Mickel runs MCKL, a Los Angeles-based design studio publishing original fonts and providing design services for clients worldwide. Founded in 2012, MCKL has collaborated with design studios, corporations, and social organizations around the world to produce custom typeface and logo solutions. Mickel's work has been recognized by the Type Directors Club and the AIGA, and he has taught at RISD and the Minneapolis College of Art and Design.
 
-
 ## About Red Hat Display and Red Hat Text
 
-<img src='type-specimen@2x.png' width='752' height='393' />
+![Type specimen](type-specimen@2x.png)
 
 Red Hat is an enterprise software company with an open source development model. We use collaboration and knowledge sharing to craft better, more reliable, and more adaptable technologies. How our words look is as important to our brand voice as the words we choose. That’s why we developed a type family that’s all our own.
 
@@ -24,7 +23,8 @@ As part of Red Hat’s commitment to open source software, the fonts are made av
 The OTF or TTF folders contain the font files used by most user operating systems.
 
 If you are running Homebrew, you can install the fonts with the following:
-```
+
+```text
 brew cask install homebrew/cask-fonts/font-redhat
 ```
 
@@ -32,7 +32,7 @@ brew cask install homebrew/cask-fonts/font-redhat
 
 If you find a problem with a font file or have a request for future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/RedHatOfficial/RedHatFont/issues).
 
-## Self Host Fonts Available From Red Hat
+## Self-Host Fonts Available From Red Hat
 
 Since all the fonts available here are licensed with permission to redistribute, subject to the license terms, you are able to self-host the fonts in this project.
 
