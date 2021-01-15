@@ -1,6 +1,6 @@
 {
   "name": "@redhat/redhat-font",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Red Hat - the open source font for Red Hat",
   "main": "red-hat-font.css",
   "scripts": {
