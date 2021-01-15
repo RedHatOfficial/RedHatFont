@@ -1,3 +1,10 @@
+## 2.4.0 (2020-01-15)
+Tag: [2.4.0](https://github.com/RedHatOfficial/RedHatFont/commits/2.4.0)
+
+- Update CSS to reference woff2 files
+- Remove the unused `text-rendering` property from font-face
+- Add `font-display` property to font-face for better performance on slow connections
+
 ## 2.3.2 (2019-07-28)
 Tag: [2.3.2](https://github.com/RedHatOfficial/RedHatFont/commits/2.3.2)
 
