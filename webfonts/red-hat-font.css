@@ -1,54 +1,44 @@
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Regular.eot");
-  /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Regular.woff") format("woff");
-  /* Modern Browsers */
+  src: url("./RedHatDisplay/RedHatDisplay-Regular.woff2") format("woff2"),
+       url("./RedHatDisplay/RedHatDisplay-Regular.woff") format("woff");
   font-style: normal;
   font-weight: 300;
-  text-rendering: optimizeLegibility;
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Medium.eot");
-  /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Medium.woff") format("woff");
-  /* Modern Browsers */
+  src: url("./RedHatDisplay/RedHatDisplay-Medium.woff2") format("woff2"),
+       url("./RedHatDisplay/RedHatDisplay-Medium.woff") format("woff");
   font-style: normal;
   font-weight: 400;
-  text-rendering: optimizeLegibility;
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Bold.eot");
-  /* IE9 Compat Modes */
-  src: url("./RedHatDisplay/RedHatDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("./RedHatDisplay/RedHatDisplay-Bold.woff") format("woff");
-  /* Modern Browsers */
+  src: url("./RedHatDisplay/RedHatDisplay-Bold.woff2") format("woff2"),
+       url("./RedHatDisplay/RedHatDisplay-Bold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
-  text-rendering: optimizeLegibility;
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Regular.eot");
-  /* IE9 Compat Modes */
-  src: url("./RedHatText/RedHatText-Regular.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-Regular.woff") format("woff");
-  /* Modern Browsers */
+  src: url("./RedHatText/RedHatText-Regular.woff2") format("woff2"),
+       url("./RedHatText/RedHatText-Regular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
-  text-rendering: optimizeLegibility;
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Medium.eot");
-  /* IE9 Compat Modes */
-  src: url("./RedHatText/RedHatText-Medium.eot?#iefix") format("embedded-opentype"), url("./RedHatText/RedHatText-Medium.woff") format("woff");
-  /* Modern Browsers */
+  src: url("./RedHatText/RedHatText-Medium.woff2") format("woff2"),
+       url("./RedHatText/RedHatText-Medium.woff") format("woff");
   font-style: normal;
   font-weight: 700;
-  text-rendering: optimizeLegibility;
+  font-display: fallback;
 }
