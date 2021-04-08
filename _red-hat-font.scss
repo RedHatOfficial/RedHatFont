@@ -1,0 +1,65 @@
+//----------------------
+// Red Hat Font Mixin
+//----------------------
+
+@mixin printRedHatFont(
+  $weightValue: 400,
+  $weightName: normal,
+  $familyName: "RedHatText",
+  $style: "normal",
+  $relative: true
+  ) {
+
+  $filePath: "./" + $familyName + "/" + $familyName + "-" + $weightName;
+
+  @if $relative == false {
+    $filePath: $fontLocation +  "/" + $familyName +  "/" + $familyName + "-" + $weightName;
+  }
+
+  // Using woff2 gives us the following browser support:
+  // Chrome 36+
+  // Safari 10+
+  // Firefox 39+
+  // Opera 23+
+  // Edge 14+
+  // Android 5+
+  // iOS 10+
+  @font-face {
+    font-family: $familyName;
+    src:
+      url('#{$filePath}.woff2') format('woff2');
+    font-style: #{$style};
+    font-weight: $weightValue;
+    // https://calendar.perfplanet.com/2020/a-font-display-setting-for-slow-connections/
+    font-display: fallback;
+  }
+}
+
+//----------------------
+// Red Hat Font Usage
+//----------------------
+
+// No compiler? No problem! Paste this file into sassmeister.com
+
+// If you would like to load the font from static.redhat.com, use this variable
+// $fontLocation: "/";
+// and set the $relative argument to false when you call the mixin
+
+//----------------------
+// Include the Red Hat Display font
+//----------------------
+// @include printRedHatFont(300, "Regular", $familyName: "RedHatDisplay");
+// @include printRedHatFont(400, "Medium", $familyName: "RedHatDisplay");
+// @include printRedHatFont(700, "Bold", $familyName: "RedHatDisplay");
+
+//----------------------
+// Include the Red Hat Text font
+//----------------------
+// @include printRedHatFont(400, "Regular", $familyName: "RedHatText");
+// @include printRedHatFont(700, "Medium", $familyName: "RedHatText");
+
+// Example Usage
+// h2 {
+//   font-family: "RedHatDisplay";
+//   font-weight: 700;
+// }
