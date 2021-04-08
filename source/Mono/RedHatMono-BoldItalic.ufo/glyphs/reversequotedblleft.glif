@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversequotedblleft" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="389" y="446" type="line"/>
+      <point x="275" y="446" type="line"/>
+      <point x="90" y="750" type="line"/>
+      <point x="265" y="750" type="line"/>
+    </contour>
+    <contour>
+      <point x="618" y="446" type="line"/>
+      <point x="504" y="446" type="line"/>
+      <point x="319" y="750" type="line"/>
+      <point x="494" y="750" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.81OQ2NW7L8</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.AUjeFLYF2W</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.BCxNTuIgjm</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.ZxAwH2zPCB</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.r7TVIaJJ4y</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

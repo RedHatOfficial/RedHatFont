@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less" format="2">
+  <advance width="600"/>
+  <unicode hex="003C"/>
+  <outline>
+    <contour>
+      <point x="424" y="119" type="line"/>
+      <point x="450" y="155" type="line"/>
+      <point x="187" y="350" type="line"/>
+      <point x="450" y="544" type="line"/>
+      <point x="425" y="579" type="line"/>
+      <point x="118" y="349" type="line"/>
+    </contour>
+  </outline>
+</glyph>

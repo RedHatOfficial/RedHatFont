@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine" format="2">
+  <advance width="600"/>
+  <unicode hex="0039"/>
+  <outline>
+    <component base="six" xScale="-1" yScale="-1" xOffset="643" yOffset="699"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.A8GNWTL9n7</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.ahGV8eMHmw</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>1,0.4353,0.8118,1</string>
+    </dict>
+  </lib>
+</glyph>

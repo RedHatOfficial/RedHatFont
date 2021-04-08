@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="174"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="56" y="187" type="line"/>
+      <point x="93" y="187" type="line"/>
+      <point x="209" y="708" type="line"/>
+      <point x="162" y="708" type="line"/>
+    </contour>
+    <contour>
+      <point x="38" y="-5" type="curve" smooth="yes"/>
+      <point x="61" y="-5"/>
+      <point x="79" y="13"/>
+      <point x="79" y="36" type="curve" smooth="yes"/>
+      <point x="79" y="55"/>
+      <point x="64" y="70"/>
+      <point x="46" y="70" type="curve" smooth="yes"/>
+      <point x="23" y="70"/>
+      <point x="5" y="52"/>
+      <point x="5" y="29" type="curve" smooth="yes"/>
+      <point x="5" y="10"/>
+      <point x="20" y="-5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.De3PwU0MJ1</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.Y22Lwnt7WF</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.iIMdgDG6jT</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.u3NSSs4T0V</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.yTMNEpVVDd</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

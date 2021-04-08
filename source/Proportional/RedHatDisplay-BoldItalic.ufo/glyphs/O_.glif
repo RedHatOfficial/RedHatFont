@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O" format="2">
+  <advance width="797"/>
+  <unicode hex="004F"/>
+  <anchor x="449" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="392" y="-11" type="curve" smooth="yes"/>
+      <point x="605" y="-11"/>
+      <point x="781" y="166"/>
+      <point x="781" y="380" type="curve" smooth="yes"/>
+      <point x="781" y="569"/>
+      <point x="636" y="711"/>
+      <point x="443" y="711" type="curve" smooth="yes"/>
+      <point x="230" y="711"/>
+      <point x="54" y="534"/>
+      <point x="54" y="320" type="curve" smooth="yes"/>
+      <point x="54" y="131"/>
+      <point x="199" y="-11"/>
+    </contour>
+    <contour>
+      <point x="401" y="122" type="curve" smooth="yes"/>
+      <point x="285" y="122"/>
+      <point x="200" y="211"/>
+      <point x="200" y="329" type="curve" smooth="yes"/>
+      <point x="200" y="466"/>
+      <point x="304" y="578"/>
+      <point x="434" y="578" type="curve" smooth="yes"/>
+      <point x="551" y="578"/>
+      <point x="636" y="489"/>
+      <point x="636" y="371" type="curve" smooth="yes"/>
+      <point x="636" y="234"/>
+      <point x="531" y="122"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>SBAlt</key>
+      <string>right</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020-12-15 09:57:55 +0000</string>
+      <key>com.typemytype.robofont.guideline.magnetic.XtglKZd8s7</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.h0A0pECFYG</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.qChJSWmwAZ</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

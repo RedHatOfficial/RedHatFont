@@ -16,19 +16,18 @@
     $filePath: $fontLocation +  "/" + $familyName +  "/" + $familyName + "-" + $weightName;
   }
 
-  // Using woff & woff2 gives us the following browser support:
-  // Chrome 5+
-  // Safari 5.1+
-  // Firefox 3.6+
-  // Opera 11.50+
-  // IE 9+
-  // Android 4.4+
-  // iOS 5.1+
+  // Using woff2 gives us the following browser support:
+  // Chrome 36+
+  // Safari 10+
+  // Firefox 39+
+  // Opera 23+
+  // Edge 14+
+  // Android 5+
+  // iOS 10+
   @font-face {
     font-family: $familyName;
     src:
-      url('#{$filePath}.woff2') format('woff2'),
-      url('#{$filePath}.woff') format('woff');
+      url('#{$filePath}.woff2') format('woff2');
     font-style: #{$style};
     font-weight: $weightValue;
     // https://calendar.perfplanet.com/2020/a-font-display-setting-for-slow-connections/

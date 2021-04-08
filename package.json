@@ -1,9 +1,11 @@
 {
   "name": "@redhat/redhat-font",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Red Hat - the open source font for Red Hat",
   "main": "red-hat-font.css",
   "scripts": {
+    "minify": "npx csso-cli webfonts/red-hat-font.css --output webfonts/red-hat-font.min.css & npx csso-cli webfonts/red-hat-font-variable.css --output webfonts/red-hat-font-variable.min.css",
+    "local": "npx browser-sync start -s 'webfonts' -f 'webfonts'",
     "test": ""
   },
   "keywords": [

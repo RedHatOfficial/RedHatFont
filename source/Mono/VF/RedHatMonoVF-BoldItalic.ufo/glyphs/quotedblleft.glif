@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft" format="2">
+  <advance width="600"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="396" y="750" type="line"/>
+      <point x="282" y="750" type="line"/>
+      <point x="97" y="446" type="line"/>
+      <point x="272" y="446" type="line"/>
+    </contour>
+    <contour>
+      <point x="625" y="750" type="line"/>
+      <point x="511" y="750" type="line"/>
+      <point x="326" y="446" type="line"/>
+      <point x="501" y="446" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.81OQ2NW7L8</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.AUjeFLYF2W</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.BCxNTuIgjm</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.ZxAwH2zPCB</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.r7TVIaJJ4y</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>1,0.4353,0.8118,1</string>
+    </dict>
+  </lib>
+</glyph>

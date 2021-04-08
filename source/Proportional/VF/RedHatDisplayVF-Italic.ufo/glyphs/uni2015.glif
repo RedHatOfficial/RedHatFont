@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2015" format="2">
+  <advance width="929"/>
+  <unicode hex="2015"/>
+  <outline>
+    <contour>
+      <point x="61" y="314" type="line"/>
+      <point x="47" y="248" type="line"/>
+      <point x="879" y="248" type="line"/>
+      <point x="893" y="314" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.SpeQKejfJ0</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.duyXrsYBIM</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.goqiLsQ1sX</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

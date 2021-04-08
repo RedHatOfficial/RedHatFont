@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversequotedblleft" format="2">
+  <advance width="333"/>
+  <outline>
+    <contour>
+      <point x="138" y="522" type="line"/>
+      <point x="176" y="522" type="line"/>
+      <point x="123" y="709" type="line"/>
+      <point x="71" y="709" type="line"/>
+    </contour>
+    <contour>
+      <point x="248" y="522" type="line"/>
+      <point x="286" y="522" type="line"/>
+      <point x="233" y="709" type="line"/>
+      <point x="181" y="709" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.CBHULI8vRt</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.TrwUP9ar6X</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.VTUzAs84PD</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.VghwvJjDOt</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.f7QXPthEiE</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

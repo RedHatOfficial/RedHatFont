@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one" format="2">
+  <advance width="600"/>
+  <unicode hex="0031"/>
+  <guideline x="49" y="176" angle="90.0" identifier="pXguCbBa3n"/>
+  <outline>
+    <contour>
+      <point x="15" y="0" type="line"/>
+      <point x="518" y="0" type="line"/>
+      <point x="546" y="131" type="line"/>
+      <point x="374" y="131" type="line"/>
+      <point x="496" y="700" type="line"/>
+      <point x="399" y="700" type="line"/>
+      <point x="144" y="603" type="line"/>
+      <point x="114" y="461" type="line"/>
+      <point x="307" y="534" type="line"/>
+      <point x="220" y="131" type="line"/>
+      <point x="43" y="131" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.pXguCbBa3n</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>

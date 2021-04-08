@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n" format="2">
+  <advance width="519"/>
+  <unicode hex="006E"/>
+  <guideline x="520" y="550" angle="78.0" identifier="cI2v9Cx5HW"/>
+  <anchor x="312" y="492" name="top"/>
+  <anchor x="208" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="16" y="0" type="line"/>
+      <point x="59" y="0" type="line"/>
+      <point x="140" y="380" type="line"/>
+      <point x="179" y="430"/>
+      <point x="237" y="461"/>
+      <point x="300" y="461" type="curve" smooth="yes"/>
+      <point x="395" y="461"/>
+      <point x="444" y="395"/>
+      <point x="422" y="291" type="curve" smooth="yes"/>
+      <point x="360" y="0" type="line"/>
+      <point x="403" y="0" type="line"/>
+      <point x="466" y="297" type="line" smooth="yes"/>
+      <point x="492" y="420"/>
+      <point x="420" y="502"/>
+      <point x="308" y="502" type="curve" smooth="yes"/>
+      <point x="248" y="502"/>
+      <point x="196" y="480"/>
+      <point x="152" y="434" type="curve"/>
+      <point x="164" y="492" type="line"/>
+      <point x="121" y="492" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020-12-15 10:01:52 +0000</string>
+      <key>com.typemytype.robofont.guideline.magnetic.AJJrn0CVsR</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.GC7nEb8Tyw</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.dWiVVKb1gu</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

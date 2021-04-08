@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dagger" format="2">
+  <advance width="600"/>
+  <unicode hex="2020"/>
+  <guideline x="223" y="470" angle="0.0" identifier="vHBXdbe4Qi"/>
+  <outline>
+    <contour>
+      <point x="276" y="0" type="line"/>
+      <point x="325" y="0" type="line"/>
+      <point x="325" y="452" type="line"/>
+      <point x="461" y="452" type="line"/>
+      <point x="461" y="496" type="line"/>
+      <point x="325" y="496" type="line"/>
+      <point x="325" y="700" type="line"/>
+      <point x="276" y="700" type="line"/>
+      <point x="276" y="496" type="line"/>
+      <point x="140" y="496" type="line"/>
+      <point x="140" y="452" type="line"/>
+      <point x="276" y="452" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.vHBXdbe4Qi</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>

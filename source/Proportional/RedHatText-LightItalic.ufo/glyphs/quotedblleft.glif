@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft" format="2">
+  <advance width="391"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="278" y="750" type="line"/>
+      <point x="237" y="750" type="line"/>
+      <point x="125" y="538" type="line"/>
+      <point x="183" y="538" type="line"/>
+    </contour>
+    <contour>
+      <point x="419" y="750" type="line"/>
+      <point x="378" y="750" type="line"/>
+      <point x="266" y="538" type="line"/>
+      <point x="324" y="538" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.CBHULI8vRt</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.TrwUP9ar6X</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.VTUzAs84PD</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.VghwvJjDOt</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.f7QXPthEiE</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="questiondown" format="2">
+  <advance width="600"/>
+  <unicode hex="00BF"/>
+  <outline>
+    <contour>
+      <point x="366" y="273" type="curve"/>
+      <point x="304" y="273" type="line"/>
+      <point x="283" y="102"/>
+      <point x="33" y="142"/>
+      <point x="33" y="-64" type="curve" smooth="yes"/>
+      <point x="33" y="-152"/>
+      <point x="111" y="-219"/>
+      <point x="223" y="-219" type="curve" smooth="yes"/>
+      <point x="300" y="-219"/>
+      <point x="378" y="-183"/>
+      <point x="440" y="-118" type="curve"/>
+      <point x="392" y="-74" type="line"/>
+      <point x="343" y="-124"/>
+      <point x="285" y="-153"/>
+      <point x="227" y="-153" type="curve" smooth="yes"/>
+      <point x="154" y="-153"/>
+      <point x="104" y="-113"/>
+      <point x="104" y="-57" type="curve" smooth="yes"/>
+      <point x="104" y="95"/>
+      <point x="350" y="71"/>
+    </contour>
+    <contour>
+      <point x="371" y="497" type="curve" smooth="yes"/>
+      <point x="334" y="497"/>
+      <point x="301" y="462"/>
+      <point x="301" y="425" type="curve" smooth="yes"/>
+      <point x="301" y="392"/>
+      <point x="326" y="367"/>
+      <point x="358" y="367" type="curve" smooth="yes"/>
+      <point x="396" y="367"/>
+      <point x="429" y="401"/>
+      <point x="429" y="439" type="curve" smooth="yes"/>
+      <point x="429" y="472"/>
+      <point x="404" y="497"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.IMaz5fMtzt</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.cziLJTzKvC</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.dciOJGCLsF</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.gtoWSp4rHE</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.j2JtakW70K</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02BC" format="2">
+  <advance width="600"/>
+  <unicode hex="02BC"/>
+  <outline>
+    <component base="comma" xOffset="-5" yOffset="623"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.LJrwd6Nxfy</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.NdudZiRuY7</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.R796bHxX7B</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.h2vEcQrqI8</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.iDvvw1fiMB</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>
