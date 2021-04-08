@@ -15,7 +15,7 @@ jobs:
     steps:
       # Checks out a copy of your repository on the ubuntu-18.04 machine.
       - name: Checkout code
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       # Deploy what's in ./webfonts to github pages.
       - name: Deploy
