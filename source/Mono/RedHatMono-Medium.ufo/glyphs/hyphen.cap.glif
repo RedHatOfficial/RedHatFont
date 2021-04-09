@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen.cap" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="hyphen" yOffset="65"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.01i4KuNPmG</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.Cyiu11oIzM</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.baN65Km5FK</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

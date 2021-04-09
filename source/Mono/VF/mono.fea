@@ -1,0 +1,112 @@
+table head {
+    FontRevision 1.010;
+} head;
+
+table BASE {
+    HorizAxis.BaseTagList       ideo  romn;
+    HorizAxis.BaseScriptList    DFLT    romn    -158 0,
+                                latn    romn    -158 0;
+} BASE;
+
+table name {
+    nameid 0 "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
+    nameid 0 1 "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
+    nameid 7 "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
+    nameid 7 1 "Copyright 2021 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)";
+    nameid 8 "Pentagram, MCKL";
+    nameid 8 1 "Pentagram, MCKL";
+    nameid 9 "Pentagram, MCKL";
+    nameid 9 1 "Pentagram, MCKL";
+    nameid 10 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+    nameid 10 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+    nameid 11 "https://www.mckltype.com";
+    nameid 11 1 "https://www.mckltype.com";
+    nameid 12 "https://pentagram.com/";
+    nameid 12 1 "https://pentagram.com/";
+	nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+	nameid 13 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+    nameid 14 "https://scripts.sil.org/OFL";
+    nameid 14 1 "https://scripts.sil.org/OFL";
+} name;
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn ROM;
+
+@fig = [zero one two three four five six seven eight nine];
+
+@sups = [uni2070 onesuperior twosuperior threesuperior uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@dnom = [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+
+feature locl {
+script latn;
+
+	language TRK exclude_dflt;
+		lookup IDOT {
+			sub i by idotaccent;
+		} IDOT;
+
+	language AZE exclude_dflt;
+		lookup IDOT;
+
+	language CRT exclude_dflt;
+		lookup IDOT;
+
+	language ROM exclude_dflt;
+		lookup SCEDILLA {
+			sub scedilla by scommaaccent;
+			sub Scedilla by Scommaaccent;
+			sub Tcedilla by uni021A;
+			sub tcedilla by uni021B;
+		} SCEDILLA;
+} locl;
+
+    
+feature aalt {
+    feature ss01;
+    feature ss02;
+    feature case;
+    feature dnom;
+    feature numr;
+    } aalt;
+
+
+feature ss01 {
+    sub [a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde] by [a.school aacute.school abreve.school acircumflex.school adieresis.school agrave.school amacron.school aogonek.school aring.school atilde.school];
+    } ss01;
+    
+feature ss02 {
+    sub [g gbreve gcircumflex gcommaaccent gdotaccent] by [g.alt gbreve.alt gcircumflex.alt gcommaaccent.alt gdotaccent.alt];
+    } ss02;
+
+    
+feature case {
+    sub [at periodcentered hyphen endash emdash uni2015 exclamdown questiondown] by [at.cap periodcentered.cap hyphen.cap endash.cap emdash.cap uni2015.cap exclamdown.cap questiondown.cap];
+    } case;
+
+    
+feature frac {
+    sub one slash two by onehalf;
+    sub one slash four by onequarter;
+    sub three slash four by threequarters;
+    } frac;
+
+feature dnom {
+    sub @fig by @dnom;
+    } dnom;
+
+feature subs {
+    sub @fig by @dnom;
+    } subs;
+
+feature numr {
+    sub @fig by @sups;
+    } numr;
+
+feature sups {
+    sub @fig by @sups;
+    } sups;
+    

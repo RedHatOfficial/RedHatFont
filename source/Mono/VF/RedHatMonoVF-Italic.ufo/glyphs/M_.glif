@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M" format="2">
+  <advance width="600"/>
+  <unicode hex="004D"/>
+  <outline>
+    <contour>
+      <point x="7" y="0" type="line"/>
+      <point x="76" y="0" type="line"/>
+      <point x="205" y="609" type="line"/>
+      <point x="293" y="210" type="line"/>
+      <point x="545" y="601" type="line"/>
+      <point x="418" y="0" type="line"/>
+      <point x="489" y="0" type="line"/>
+      <point x="636" y="700" type="line"/>
+      <point x="540" y="700" type="line"/>
+      <point x="324" y="366" type="line"/>
+      <point x="248" y="700" type="line"/>
+      <point x="156" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.hyldUCzMAp</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>

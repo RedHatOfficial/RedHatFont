@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Euro" format="2">
+  <advance width="600"/>
+  <unicode hex="20AC"/>
+  <outline>
+    <contour>
+      <point x="356" y="-11" type="curve" smooth="yes"/>
+      <point x="459" y="-11"/>
+      <point x="539" y="49"/>
+      <point x="580" y="152" type="curve"/>
+      <point x="511" y="183" type="line"/>
+      <point x="479" y="103"/>
+      <point x="422" y="59"/>
+      <point x="356" y="59" type="curve" smooth="yes"/>
+      <point x="275" y="59"/>
+      <point x="209" y="130"/>
+      <point x="187" y="256" type="curve"/>
+      <point x="368" y="256" type="line"/>
+      <point x="386" y="310" type="line"/>
+      <point x="180" y="310" type="line"/>
+      <point x="179" y="323"/>
+      <point x="179" y="336"/>
+      <point x="179" y="350" type="curve" smooth="yes"/>
+      <point x="179" y="364"/>
+      <point x="179" y="377"/>
+      <point x="180" y="390" type="curve"/>
+      <point x="416" y="390" type="line"/>
+      <point x="435" y="444" type="line"/>
+      <point x="187" y="444" type="line"/>
+      <point x="209" y="570"/>
+      <point x="275" y="641"/>
+      <point x="356" y="641" type="curve" smooth="yes"/>
+      <point x="422" y="641"/>
+      <point x="479" y="597"/>
+      <point x="511" y="517" type="curve"/>
+      <point x="580" y="548" type="line"/>
+      <point x="539" y="651"/>
+      <point x="459" y="711"/>
+      <point x="356" y="711" type="curve" smooth="yes"/>
+      <point x="240" y="711"/>
+      <point x="136" y="617"/>
+      <point x="108" y="444" type="curve"/>
+      <point x="28" y="444" type="line"/>
+      <point x="28" y="390" type="line"/>
+      <point x="102" y="390" type="line"/>
+      <point x="101" y="377"/>
+      <point x="101" y="364"/>
+      <point x="101" y="350" type="curve" smooth="yes"/>
+      <point x="101" y="336"/>
+      <point x="101" y="323"/>
+      <point x="102" y="310" type="curve"/>
+      <point x="28" y="310" type="line"/>
+      <point x="28" y="256" type="line"/>
+      <point x="108" y="256" type="line"/>
+      <point x="136" y="83"/>
+      <point x="240" y="-11"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.rNUMiTvak7</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>

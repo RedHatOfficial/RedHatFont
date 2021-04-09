@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblright" format="2">
+  <advance width="600"/>
+  <unicode hex="201D"/>
+  <outline>
+    <component base="comma" xOffset="112" yOffset="690"/>
+    <component base="comma" xOffset="-34" yOffset="690"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.DMPzvd5YjV</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.LmBuuPOyyL</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.MtAw8iBzDX</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.l4UPpGbGWj</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.rsQa2M3lq9</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

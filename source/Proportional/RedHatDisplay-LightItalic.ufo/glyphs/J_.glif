@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J" format="2">
+  <advance width="571"/>
+  <unicode hex="004A"/>
+  <guideline x="560" y="498" angle="78.0" identifier="YTSnbIA5oy"/>
+  <anchor x="580" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="225" y="-11" type="curve" smooth="yes"/>
+      <point x="380" y="-11"/>
+      <point x="473" y="96"/>
+      <point x="508" y="262" type="curve" smooth="yes"/>
+      <point x="601" y="700" type="line"/>
+      <point x="556" y="700" type="line"/>
+      <point x="463" y="262" type="line" smooth="yes"/>
+      <point x="434" y="124"/>
+      <point x="350" y="32"/>
+      <point x="226" y="32" type="curve" smooth="yes"/>
+      <point x="132" y="32"/>
+      <point x="73" y="80"/>
+      <point x="48" y="172" type="curve"/>
+      <point x="10" y="156" type="line"/>
+      <point x="36" y="52"/>
+      <point x="115" y="-11"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020-12-15 09:57:02 +0000</string>
+    </dict>
+  </lib>
+</glyph>

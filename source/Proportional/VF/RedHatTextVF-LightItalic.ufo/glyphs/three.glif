@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three" format="2">
+  <advance width="574"/>
+  <unicode hex="0033"/>
+  <outline>
+    <component base="three.tab" xOffset="-14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.6543,0.932,0.1998,1</string>
+    </dict>
+  </lib>
+</glyph>

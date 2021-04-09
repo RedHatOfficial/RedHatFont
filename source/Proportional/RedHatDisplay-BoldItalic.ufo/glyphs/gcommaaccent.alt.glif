@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gcommaaccent.alt" format="2">
+  <advance width="588"/>
+  <outline>
+    <contour>
+      <point x="508" y="816" type="line"/>
+      <point x="411" y="816" type="line"/>
+      <point x="287" y="612" type="line"/>
+      <point x="414" y="612" type="line"/>
+    </contour>
+    <component base="g.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.977,0.1166,1</string>
+    </dict>
+  </lib>
+</glyph>

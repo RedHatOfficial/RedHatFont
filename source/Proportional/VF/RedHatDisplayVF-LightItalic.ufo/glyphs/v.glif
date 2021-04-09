@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="v" format="2">
+  <advance width="473"/>
+  <unicode hex="0076"/>
+  <outline>
+    <contour>
+      <point x="164" y="0" type="line"/>
+      <point x="204" y="0" type="line"/>
+      <point x="519" y="492" type="line"/>
+      <point x="469" y="492" type="line"/>
+      <point x="195" y="61" type="line"/>
+      <point x="105" y="492" type="line"/>
+      <point x="60" y="492" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>SBAlt</key>
+      <string>right</string>
+    </dict>
+  </lib>
+</glyph>

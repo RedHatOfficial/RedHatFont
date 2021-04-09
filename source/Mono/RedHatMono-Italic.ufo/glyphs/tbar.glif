@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="600"/>
+  <unicode hex="0167"/>
+  <guideline x="79" y="408" angle="78.0" identifier="vMTTnQQWsZ"/>
+  <guideline x="552" y="442" angle="78.0" identifier="ezjVn0LWT7"/>
+  <outline>
+    <contour>
+      <point x="58" y="305" type="line"/>
+      <point x="47" y="251" type="line"/>
+      <point x="213" y="251" type="line"/>
+      <point x="191" y="148" type="line" smooth="yes"/>
+      <point x="171" y="53"/>
+      <point x="227" y="-10"/>
+      <point x="341" y="-10" type="curve" smooth="yes"/>
+      <point x="380" y="-10"/>
+      <point x="421" y="-2"/>
+      <point x="460" y="14" type="curve"/>
+      <point x="474" y="80" type="line"/>
+      <point x="425" y="62"/>
+      <point x="389" y="54"/>
+      <point x="352" y="54" type="curve" smooth="yes"/>
+      <point x="279" y="54"/>
+      <point x="249" y="80"/>
+      <point x="263" y="145" type="curve" smooth="yes"/>
+      <point x="285" y="251" type="line"/>
+      <point x="511" y="251" type="line"/>
+      <point x="523" y="305" type="line"/>
+      <point x="297" y="305" type="line"/>
+      <point x="323" y="428" type="line"/>
+      <point x="548" y="428" type="line"/>
+      <point x="561" y="488" type="line"/>
+      <point x="336" y="488" type="line"/>
+      <point x="368" y="639" type="line"/>
+      <point x="291" y="622" type="line"/>
+      <point x="263" y="488" type="line"/>
+      <point x="96" y="488" type="line"/>
+      <point x="83" y="428" type="line"/>
+      <point x="250" y="428" type="line"/>
+      <point x="224" y="305" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="m" format="2">
+  <advance width="842"/>
+  <unicode hex="006D"/>
+  <outline>
+    <contour>
+      <point x="10" y="0" type="line"/>
+      <point x="82" y="0" type="line"/>
+      <point x="161" y="374" type="line"/>
+      <point x="201" y="421"/>
+      <point x="248" y="446"/>
+      <point x="298" y="446" type="curve" smooth="yes"/>
+      <point x="376" y="446"/>
+      <point x="416" y="385"/>
+      <point x="396" y="297" type="curve" smooth="yes"/>
+      <point x="333" y="0" type="line"/>
+      <point x="405" y="0" type="line"/>
+      <point x="471" y="309" type="line" smooth="yes"/>
+      <point x="475" y="327"/>
+      <point x="476" y="345"/>
+      <point x="476" y="361" type="curve"/>
+      <point x="522" y="418"/>
+      <point x="570" y="446"/>
+      <point x="623" y="446" type="curve" smooth="yes"/>
+      <point x="699" y="446"/>
+      <point x="739" y="387"/>
+      <point x="722" y="304" type="curve" smooth="yes"/>
+      <point x="657" y="0" type="line"/>
+      <point x="729" y="0" type="line"/>
+      <point x="794" y="309" type="line" smooth="yes"/>
+      <point x="819" y="425"/>
+      <point x="757" y="510"/>
+      <point x="647" y="510" type="curve" smooth="yes"/>
+      <point x="580" y="510"/>
+      <point x="521" y="479"/>
+      <point x="466" y="415" type="curve"/>
+      <point x="445" y="473"/>
+      <point x="394" y="510"/>
+      <point x="323" y="510" type="curve" smooth="yes"/>
+      <point x="269" y="510"/>
+      <point x="220" y="490"/>
+      <point x="177" y="449" type="curve"/>
+      <point x="188" y="501" type="line"/>
+      <point x="116" y="501" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.h213klWP2W</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.hJe8b2OHQ9</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.hXWrlkj5cU</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

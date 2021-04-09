@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="b" format="2">
+  <advance width="600"/>
+  <unicode hex="0062"/>
+  <guideline x="156" y="178" angle="270.0" identifier="FsIwtXpTI7"/>
+  <outline>
+    <contour>
+      <point x="99" y="0" type="line"/>
+      <point x="148" y="0" type="line"/>
+      <point x="148" y="68" type="line"/>
+      <point x="188" y="18"/>
+      <point x="244" y="-8"/>
+      <point x="312" y="-8" type="curve" smooth="yes"/>
+      <point x="441" y="-8"/>
+      <point x="540" y="100"/>
+      <point x="540" y="240" type="curve" smooth="yes"/>
+      <point x="540" y="379"/>
+      <point x="440" y="487"/>
+      <point x="310" y="487" type="curve" smooth="yes"/>
+      <point x="246" y="487"/>
+      <point x="189" y="463"/>
+      <point x="149" y="415" type="curve"/>
+      <point x="149" y="737" type="line"/>
+      <point x="99" y="725" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="38" type="curve" smooth="yes"/>
+      <point x="237" y="38"/>
+      <point x="181" y="67"/>
+      <point x="149" y="116" type="curve"/>
+      <point x="149" y="367" type="line"/>
+      <point x="182" y="414"/>
+      <point x="240" y="441"/>
+      <point x="302" y="441" type="curve" smooth="yes"/>
+      <point x="408" y="441"/>
+      <point x="490" y="355"/>
+      <point x="490" y="240" type="curve" smooth="yes"/>
+      <point x="490" y="125"/>
+      <point x="408" y="38"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.FsIwtXpTI7</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>

@@ -1,10 +1,10 @@
-# Red Hat Fonts Files
+# Red Hat Typeface Files
 
 ## Designers
 
 ### Jeremy Mickel
 
-Jeremy Mickel runs MCKL, a Los Angeles-based design studio publishing original fonts and providing design services for clients worldwide. Founded in 2012, MCKL has collaborated with design studios, corporations, and social organizations around the world to produce custom typeface and logo solutions. Mickel's work has been recognized by the Type Directors Club and the AIGA, and he has taught at RISD and the Minneapolis College of Art and Design.
+Jeremy Mickel runs [MCKL](https://www.mckltype.com), a Los Angeles-based type foundry and design studio publishing original fonts and creating custom designs for clients. Founded in 2012, MCKL has collaborated with leading design firms, companies, and organizations around the world to provide custom typeface and logo design services. Mickel's work has been recognized by the Type Directors Club and the AIGA, and he has taught at RISD and the Minneapolis College of Art and Design.
 
 ## About Red Hat Display and Red Hat Text
 
@@ -12,11 +12,119 @@ Jeremy Mickel runs MCKL, a Los Angeles-based design studio publishing original f
 
 Red Hat is an enterprise software company with an open source development model. We use collaboration and knowledge sharing to craft better, more reliable, and more adaptable technologies. How our words look is as important to our brand voice as the words we choose. That’s why we developed a type family that’s all our own.
 
-The Red Hat type family is produced in 2 optical sizes, in a range of weights with italics. The fonts were originally commissioned by Paula Scher / Pentagram and designed by Jeremy Mickel / MCKL for the new Red Hat identity.
+The Red Hat Typeface is a superfamily of Display, Text, and Mono styles, each with a range of weights in roman and italic. The fonts were originally commissioned by Paula Scher / [Pentagram](https://www.pentagram.com/) and designed by Jeremy Mickel / [MCKL](https://www.mckltype.com) for the new Red Hat identity.
 
-Red Hat is a fresh take on the geometric sans genre, taking inspiration from a range of American sans serifs including Tempo and Highway Gothic. The Display styles, made for headlines and big statements, are low contrast and spaced tightly, with a large x-height and open counters. The Text styles have a slightly smaller x-height and narrower width for better legibility, are spaced more generously, and have thinned joins for better performance at small sizes. The two families can be used together seamlessly at a range of sizes.
+Red Hat is a fresh take on the geometric sans genre, taking inspiration from a range of American sans serifs including Tempo and Highway Gothic. The Display styles, made for headlines and big statements, are low contrast and spaced tightly, with a large x-height and open counters. The Text styles have a slightly smaller x-height and narrower width for better legibility, are spaced more generously, and have thinned joins for better performance at small sizes. In 2021 we added Light and Light Italic styles, and a Monospace family. The fonts can be used together seamlessly at a range of sizes.
 
 As part of Red Hat’s commitment to open source software, the fonts are made available for use under the SIL Open Font License.
+
+## Variable Fonts
+
+Variable fonts are available for each of the Red Hat Typeface families. The fonts include the `wght` axis, which allows for interpolation between light and black weights.
+
+## Building the Fonts
+
+From terminal, run the build script at `sources/build-all.sh`. Fonts output to `fonts/`.
+
+NOTE: The first time you build, you will need to set up a virtual environment and install dependencies:
+
+<details>
+<summary><b><!-------->Setting up the build environment<!--------></b> (Click to expand)</summary>
+
+### Set up the environment
+
+**The basics**
+
+You will need to open a terminal to run the following commands.
+
+Clone the repo & navigate into it:
+
+```
+git clone https://github.com/RedHatOfficial/RedHatFont.git
+cd RedHatFont
+```
+
+Check that you have Python 3:
+
+```
+which python3
+```
+
+It should return a path ending with `python3`, such as `/Library/Frameworks/Python.framework/Versions/3.7/bin/python3`. If it returns an error like `python3 not found`, you will need to [download Python 3](https://www.python.org/downloads/).
+
+**Setting up a virtual environment**
+
+To build, set up the virtual environment:
+
+```bash
+cd ~
+python3 -m venv venv
+```
+
+Then activate it:
+
+```bash
+source venv/bin/activate
+```
+
+Now, install requirements:
+
+```bash
+cd RedHatFont
+pip install -U -r requirements.txt
+```
+
+Give the build scripts permission to run/execute (you can copy & paste, then run both lines in the terminal at once):
+
+```bash
+chmod +x sources/**/*.sh
+chmod +x mastering/make-github-release/**/*.sh
+```
+
+**Making woff2 files**
+
+Finally, you will also need to separately install [google/woff2](https://github.com/google/woff2) to enable the `woff2_compress` and `woff2_decompress` commands. Open a new terminal session, window, or tab to do this step.
+
+```bash
+# open a new terminal session first, then run
+git clone --recursive https://github.com/google/woff2.git
+cd woff2
+make clean all
+```
+
+To make sure woff2_compress is installed properly, enter the following inyour terminal window:
+
+```
+woff2_compress
+```
+
+If terminal cannot find the command, you may need to ensure binaries are in $PATH, [a description of which you can find here.](https://github.com/google/woff2/issues/131)
+
+Once woff2_compress is working in your terminal, you can now run the build!
+
+</details>
+
+### Build fonts
+
+Once you have set up the environment (see above), you can build fonts & prep releases!
+
+To build variable and static fonts, plus make woff2s, use `build-all.sh`. This takes awhile (most of the time is taken up by building TTF & OTF static fonts).
+
+```bash
+sources/build-all.sh
+```
+
+If you just want to build variable fonts, use `build.sh`:
+
+```bash
+sources/build-scripts/build-vf.sh
+```
+
+To build only the static fonts (these are secondary to the variable fonts, so you can’t set the version numbers in this script), use `build-statics.sh`:
+
+```bash
+sources/build-scripts/build-statics.sh
+```
 
 ## Installation
 
@@ -45,7 +153,7 @@ Since all the fonts available here are licensed with permission to redistribute,
 
 ## Licensing
 
-Copyright 2019 Red Hat, Inc.
+Copyright 2021 Red Hat, Inc.
 
 Licensed under the SIL Open Font License, Version 1.1, with Reserved Font Name Red Hat.
 

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="at.cap" format="2">
+  <advance width="769"/>
+  <outline>
+    <component base="at" xOffset="28" yOffset="135"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>SBAlt</key>
+      <string>left</string>
+      <key>com.typemytype.robofont.guideline.magnetic.Uc8H6aoCX3</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.mIIdwE7yVn</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

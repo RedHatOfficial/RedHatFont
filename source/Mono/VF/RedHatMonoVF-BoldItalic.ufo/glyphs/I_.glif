@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="600"/>
+  <unicode hex="0049"/>
+  <anchor x="392" y="700" name="top"/>
+  <anchor x="500" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-11" y="0" type="line"/>
+      <point x="501" y="0" type="line"/>
+      <point x="531" y="142" type="line"/>
+      <point x="361" y="142" type="line"/>
+      <point x="450" y="558" type="line"/>
+      <point x="620" y="558" type="line"/>
+      <point x="650" y="700" type="line"/>
+      <point x="138" y="700" type="line"/>
+      <point x="108" y="558" type="line"/>
+      <point x="278" y="558" type="line"/>
+      <point x="189" y="142" type="line"/>
+      <point x="19" y="142" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.BMXG0tnWIL</key>
+      <true/>
+      <key>com.typemytype.robofont.guideline.showMeasurements.IUDAI6KpPW</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>
