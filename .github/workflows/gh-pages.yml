@@ -1,0 +1,22 @@
+name: github pages
+
+# Run this workflow every time a new release is published.
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-18.04 machine.
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Deploy what's in ./webfonts to github pages.
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./webfonts
