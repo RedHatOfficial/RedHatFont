@@ -2,14 +2,14 @@
 
 ## Font file CSS
 
-All static fonts are available via `./red-hat-font.css`.
+All static fonts are available via `./red-hat-font.css`
 
-Variable fonts are available via `./red-hat-font-variable.css`.
+Variable fonts are available via `./red-hat-font-variable.css`
 
 Minified versions of both of these are available at:
 
-* `./red-hat-font.min.css`.
-* `./red-hat-font-variable.min.css`.
+* `./red-hat-font.min.css`
+* `./red-hat-font-variable.min.css`
 
 ## Local development
 
