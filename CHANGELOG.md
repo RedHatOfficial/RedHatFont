@@ -1,3 +1,17 @@
+## 4.0.0 (2021-04-08)
+Tag: [4.0.0](https://github.com/RedHatOfficial/RedHatFont/commits/4.0.0)
+
+- New weights (Light / Light Italic) in Red Hat Display and Red Hat Text
+- Tabular figures (monospaced numbers) in Red Hat Display and Red Hat Text
+- Red Hat Mono typeface
+- Variable font versions of all the fonts
+- Other small improvements to glyph shape, kerning, metadata across the entire family of fonts
+- Added new fonts to webfont css file
+- Created new variable webfont css file
+- Added minified versions of webfont css files
+- Updated demo page with variable fonts
+- Dropped support for IE11.
+
 ## 3.0.0 (2021-01-15)
 Tag: [3.0.0](https://github.com/RedHatOfficial/RedHatFont/commits/3.0.0)
 

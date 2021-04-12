@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three" format="2">
+  <advance width="586"/>
+  <unicode hex="0033"/>
+  <outline>
+    <component base="three.tab" xOffset="-4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.5O8Y1nDuH4</key>
+      <true/>
+      <key>public.markColor</key>
+      <string>1,0.4353,0.8118,1</string>
+    </dict>
+  </lib>
+</glyph>

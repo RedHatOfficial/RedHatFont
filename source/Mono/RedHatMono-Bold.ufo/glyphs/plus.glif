@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plus" format="2">
+  <advance width="600"/>
+  <unicode hex="002B"/>
+  <outline>
+    <contour>
+      <point x="239" y="123" type="line"/>
+      <point x="363" y="123" type="line"/>
+      <point x="363" y="299" type="line"/>
+      <point x="525" y="299" type="line"/>
+      <point x="525" y="419" type="line"/>
+      <point x="363" y="419" type="line"/>
+      <point x="363" y="591" type="line"/>
+      <point x="239" y="591" type="line"/>
+      <point x="239" y="419" type="line"/>
+      <point x="75" y="419" type="line"/>
+      <point x="75" y="299" type="line"/>
+      <point x="239" y="299" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.showMeasurements.7YV64J0Qv5</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>

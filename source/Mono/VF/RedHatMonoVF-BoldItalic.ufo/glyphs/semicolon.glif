@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon" format="2">
+  <advance width="600"/>
+  <unicode hex="003B"/>
+  <outline>
+    <component base="period" xOffset="74" yOffset="348"/>
+    <component base="comma"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.8V96XFcvgB</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.Cyb6DkLwel</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.JrJCTAOGpL</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.QDIsjrhtQe</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.X7b9bvj2A4</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>1,0.4353,0.8118,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five" format="2">
+  <advance width="617"/>
+  <unicode hex="0035"/>
+  <note>
+Version created Sun Jan 27 17:40:50 2019
+</note>
+  <outline>
+    <component base="five.tab" xOffset="9"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>SBAlt</key>
+      <string>right</string>
+      <key>com.typemytype.robofont.guideline.showMeasurements.sdwtrT6mbJ</key>
+      <true/>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

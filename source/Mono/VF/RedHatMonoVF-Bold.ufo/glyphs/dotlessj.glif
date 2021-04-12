@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessj" format="2">
+  <advance width="600"/>
+  <unicode hex="0237"/>
+  <anchor x="389" y="516" name="top"/>
+  <outline>
+    <contour>
+      <point x="216" y="-219" type="curve" smooth="yes"/>
+      <point x="387" y="-219"/>
+      <point x="472" y="-146"/>
+      <point x="472" y="6" type="curve" smooth="yes"/>
+      <point x="472" y="516" type="line"/>
+      <point x="75" y="516" type="line"/>
+      <point x="75" y="391" type="line"/>
+      <point x="310" y="391" type="line"/>
+      <point x="310" y="27" type="line" smooth="yes"/>
+      <point x="310" y="-54"/>
+      <point x="285" y="-81"/>
+      <point x="206" y="-81" type="curve" smooth="yes"/>
+      <point x="174" y="-81"/>
+      <point x="139" y="-77"/>
+      <point x="75" y="-60" type="curve"/>
+      <point x="75" y="-199" type="line"/>
+      <point x="118" y="-211"/>
+      <point x="175" y="-219"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.BZpMidTNzw</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.kQQJujAVWi</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.m1jFi0uvJE</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.v1md8oxURh</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.z3l41rt1yv</key>
+      <integer>5</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven" format="2">
+  <advance width="606"/>
+  <unicode hex="0037"/>
+  <outline>
+    <component base="seven.tab"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.6543,0.932,0.1998,1</string>
+    </dict>
+  </lib>
+</glyph>

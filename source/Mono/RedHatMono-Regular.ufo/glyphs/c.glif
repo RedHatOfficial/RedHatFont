@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="c" format="2">
+  <advance width="600"/>
+  <unicode hex="0063"/>
+  <anchor x="305" y="488" name="top"/>
+  <anchor x="306" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="308" y="-10" type="curve" smooth="yes"/>
+      <point x="398" y="-10"/>
+      <point x="475" y="33"/>
+      <point x="518" y="101" type="curve"/>
+      <point x="459" y="138" type="line"/>
+      <point x="428" y="87"/>
+      <point x="373" y="55"/>
+      <point x="308" y="55" type="curve" smooth="yes"/>
+      <point x="208" y="55"/>
+      <point x="135" y="134"/>
+      <point x="135" y="243" type="curve" smooth="yes"/>
+      <point x="135" y="352"/>
+      <point x="208" y="431"/>
+      <point x="308" y="431" type="curve" smooth="yes"/>
+      <point x="373" y="431"/>
+      <point x="428" y="399"/>
+      <point x="459" y="348" type="curve"/>
+      <point x="518" y="385" type="line"/>
+      <point x="475" y="453"/>
+      <point x="398" y="496"/>
+      <point x="308" y="496" type="curve" smooth="yes"/>
+      <point x="170" y="496"/>
+      <point x="63" y="387"/>
+      <point x="63" y="243" type="curve" smooth="yes"/>
+      <point x="63" y="99"/>
+      <point x="170" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.CnWov4v5gS</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.WieLPXUqwW</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.zfFd93a0gG</key>
+      <real>5.0</real>
+    </dict>
+  </lib>
+</glyph>

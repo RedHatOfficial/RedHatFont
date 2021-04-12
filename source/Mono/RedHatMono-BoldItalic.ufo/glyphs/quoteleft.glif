@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft" format="2">
+  <advance width="600"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="544" y="750" type="line"/>
+      <point x="430" y="750" type="line"/>
+      <point x="245" y="446" type="line"/>
+      <point x="420" y="446" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.95xOQ5IdF2</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.A4ZnIZatij</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.FaJ54BIvai</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.OA367H1HKo</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.cWgPN0ZQ7E</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>1,0.4353,0.8118,1</string>
+    </dict>
+  </lib>
+</glyph>

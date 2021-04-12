@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2070" format="2">
+  <advance width="600"/>
+  <unicode hex="2070"/>
+  <outline>
+    <component base="uni2080" xOffset="74" yOffset="350"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.2NhRAid1IB</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.2fpqZyq8Zw</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.CWiub9gmFd</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.eysQNbW1R1</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.fsJE342HYi</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

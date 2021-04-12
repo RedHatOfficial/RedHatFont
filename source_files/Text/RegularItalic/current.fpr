@@ -1,9 +1,0 @@
-SuppressHintWarnings	true
-InputFontPath	RedHatText-Italic_source.ttf
-ReleaseMode	true
-FeaturePath	features
-FontMenuDBPath	../../FontMenuNameDB
-GlyphAliasDBPath	../../GlyphOrderAndAliasDB
-IsItalicStyle	true
-OutputFontPath	RedHatText-Italic.ttf
-kSetfsSelectionBitsOn	[8]

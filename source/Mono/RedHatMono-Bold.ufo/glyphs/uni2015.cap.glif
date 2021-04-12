@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2015.cap" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="uni2015" yOffset="65"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.8EqRp6pZtB</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.fmx4WYfu03</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.oOzrdklMmM</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcaron" format="2">
+  <advance width="600"/>
+  <unicode hex="013D"/>
+  <outline>
+    <component base="L"/>
+    <component base="caronSlovak" xOffset="154" yOffset="-14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
+</glyph>

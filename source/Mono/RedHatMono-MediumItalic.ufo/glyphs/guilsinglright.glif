@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglright" format="2">
+  <advance width="600"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="306" y="501" type="line"/>
+      <point x="192" y="501" type="line"/>
+      <point x="362" y="251" type="line"/>
+      <point x="85" y="0" type="line"/>
+      <point x="201" y="0" type="line"/>
+      <point x="482" y="249" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.4353,0.8118,1</string>
+    </dict>
+  </lib>
+</glyph>

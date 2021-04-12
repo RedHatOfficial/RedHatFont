@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j" format="2">
+  <advance width="600"/>
+  <unicode hex="006A"/>
+  <outline>
+    <contour>
+      <point x="471" y="596" type="curve" smooth="yes"/>
+      <point x="533" y="596"/>
+      <point x="584" y="647"/>
+      <point x="584" y="709" type="curve" smooth="yes"/>
+      <point x="584" y="759"/>
+      <point x="544" y="798"/>
+      <point x="494" y="798" type="curve" smooth="yes"/>
+      <point x="435" y="798"/>
+      <point x="382" y="745"/>
+      <point x="382" y="684" type="curve" smooth="yes"/>
+      <point x="382" y="634"/>
+      <point x="420" y="596"/>
+    </contour>
+    <contour>
+      <point x="165" y="-219" type="curve" smooth="yes"/>
+      <point x="300" y="-219"/>
+      <point x="383" y="-152"/>
+      <point x="411" y="-19" type="curve" smooth="yes"/>
+      <point x="526" y="516" type="line"/>
+      <point x="129" y="516" type="line"/>
+      <point x="102" y="391" type="line"/>
+      <point x="337" y="391" type="line"/>
+      <point x="256" y="19" type="line" smooth="yes"/>
+      <point x="240" y="-54"/>
+      <point x="214" y="-80"/>
+      <point x="157" y="-80" type="curve" smooth="yes"/>
+      <point x="118" y="-80"/>
+      <point x="67" y="-67"/>
+      <point x="7" y="-43" type="curve"/>
+      <point x="-21" y="-177" type="line"/>
+      <point x="26" y="-203"/>
+      <point x="98" y="-219"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guideline.magnetic.BZpMidTNzw</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.kQQJujAVWi</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.m1jFi0uvJE</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.v1md8oxURh</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.z3l41rt1yv</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.showMeasurements.CH9mFOFRr6</key>
+      <true/>
+      <key>com.typemytype.robofont.guideline.showMeasurements.iDpPTQMYma</key>
+      <true/>
+    </dict>
+  </lib>
+</glyph>
