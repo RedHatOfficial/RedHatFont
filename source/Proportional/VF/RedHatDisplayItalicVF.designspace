@@ -7,8 +7,9 @@
       <map input="300" output="350"/>
       <map input="400" output="400"/>
       <map input="500" output="547.300000"/>
+      <map input="600" output="652.500000"/>
       <map input="700" output="757.700000"/>
-      <map input="800" output="828.900000"
+      <map input="800" output="828.900000"/>
       <map input="900" output="900"/>
     </axis>
   </axes>
