@@ -4,8 +4,9 @@
   "description": "Red Hat - the open source font for Red Hat",
   "main": "red-hat-font.css",
   "scripts": {
-    "minify": "npx csso-cli webfonts/red-hat-font.css --output webfonts/red-hat-font.min.css & npx csso-cli webfonts/red-hat-font-variable.css --output webfonts/red-hat-font-variable.min.css",
+    "minify": "npx csso-cli webfonts/red-hat-font.css --output webfonts/red-hat-font.min.css & npx csso-cli webfonts/font.css --output webfonts/font.min.css",
     "local": "npx browser-sync start -s 'webfonts' -f 'webfonts'",
+    "copy-to-webfonts": "cp ./fonts/proportional/web/*Modified.woff2 ./webfonts/modified && cp ./fonts/mono/web/{*Italic.woff2,*VF.woff2} ./webfonts/RedHatMono",
     "test": ""
   },
   "keywords": [
