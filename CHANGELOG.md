@@ -1,14 +1,14 @@
-## 4.1.0 ()
-Tag: [4.1.0]()
+## 4.0.2 (2021-04-28)
+Tag: [4.0.2](https://github.com/RedHatOfficial/RedHatFont/releases/tag/4.0.2)
 
-- Added a modified version of red-hat-font.css with unique weights
+- Fixed red-hat-font.css to bring weights back to what they were in v3.
 - Updated demo page to only use variable fonts
 - Added demo page of modified variable fonts
 
 ## 4.0.1 (2021-04-22)
 Tag: [4.1.0](https://github.com/RedHatOfficial/RedHatFont/releases/tag/4.0.1)
 
-- Refreshes metainfo files to account for the new "Red Hat Typeface" name and monospace font family
+- Refreshed metainfo files to account for the new "Red Hat Typeface" name and monospace font family
 
 ## 4.0.0 (2021-04-08)
 Tag: [4.0.0](https://github.com/RedHatOfficial/RedHatFont/commits/4.0.0)
