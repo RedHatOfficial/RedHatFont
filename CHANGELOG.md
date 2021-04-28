@@ -6,7 +6,7 @@ Tag: [4.0.2](https://github.com/RedHatOfficial/RedHatFont/releases/tag/4.0.2)
 - Added demo page of modified variable fonts
 
 ## 4.0.1 (2021-04-22)
-Tag: [4.1.0](https://github.com/RedHatOfficial/RedHatFont/releases/tag/4.0.1)
+Tag: [4.0.1](https://github.com/RedHatOfficial/RedHatFont/releases/tag/4.0.1)
 
 - Refreshed metainfo files to account for the new "Red Hat Typeface" name and monospace font family
 
