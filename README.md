@@ -80,7 +80,6 @@ Give the build scripts permission to run/execute (you can copy & paste, then run
 
 ```bash
 chmod +x build-scripts/*.sh
-chmod +x mastering/make-github-release/**/*.sh
 ```
 
 **Making woff2 files**
