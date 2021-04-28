@@ -13,7 +13,7 @@ Minified versions of both of these are available at:
 
 ## Local development
 
-Generate new minified versions of the CSS files by running `npm run minifiy` at the project root.
+Generate new minified versions of the CSS files by running `npm run minify` at the project root.
 
 Spin up a local browser to review the `./index.html` file by running `npm run local` at the project root.
 
@@ -47,9 +47,9 @@ See the [Red Hat digital design system](https://ux.redhat.com/foundations/typogr
 
 ## How do I recompile the modified font files?
 
-First, follow the instructions in the [readme](../README.md) to set up your environment for font building.
+First, follow the instructions in the root [readme](../README.md) to set up your environment for font building.
 
-Next, run the modified build script with:
+Next, from the root directory, run the modified build script with:
 
 ```bash
 ./build-scripts/build-modified-vf.sh
