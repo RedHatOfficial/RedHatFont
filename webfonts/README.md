@@ -2,20 +2,20 @@
 
 ## Font file CSS
 
-Original fonts are available via `./font.css`
+Original fonts are available via `webfonts/font.css`
 
-Modified fonts are available via `./red-hat-font.css`
+Modified fonts are available via `webfonts/red-hat-font.css`
 
 Minified versions of both of these are available at:
 
-* `./font.min.css`
-* `./red-hat-font.min.css`
+* `webfonts/font.min.css`
+* `webfonts/red-hat-font.min.css`
 
 ## Local development
 
 Generate new minified versions of the CSS files by running `npm run minify` at the project root.
 
-Spin up a local browser to review the `./index.html` file by running `npm run local` at the project root.
+Spin up a local browser to review the `webfonts/index.html` file by running `npm run local` at the project root.
 
 ## Why are there two font CSS files?
 
