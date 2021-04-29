@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'RedHatDisplayVF';
+  font-family: 'RedHatDisplay';
   src: url("./RedHatDisplay/RedHatDisplayVF.woff2") format('woff2-variations');
   font-weight: 300 900;
   font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'RedHatDisplayVF';
+  font-family: 'RedHatDisplay';
   src: url("./RedHatDisplay/RedHatDisplayVF-Italic.woff2") format('woff2-variations');
   font-weight: 300 900;
   font-style: italic;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'RedHatTextVF';
+  font-family: 'RedHatText';
   src: url("./RedHatText/RedHatTextVF.woff2") format('woff2-variations');
   font-weight: 300 700;
   font-style: normal;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: 'RedHatTextVF';
+  font-family: 'RedHatText';
   src: url("./RedHatText/RedHatTextVF-Italic.woff2") format('woff2-variations');
   font-weight: 300 700;
   font-style: italic;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: 'RedHatMonoVF';
+  font-family: 'RedHatMono';
   src: url("./RedHatMono/RedHatMonoVF.woff2") format('woff2-variations');
   font-weight: 300 700;
   font-style: normal;
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-  font-family: 'RedHatMonoVF';
+  font-family: 'RedHatMono';
   src: url("./RedHatMono/RedHatMonoVF-Italic.woff2") format('woff2-variations');
   font-weight: 300 700;
   font-style: italic;

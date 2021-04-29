@@ -1,213 +1,47 @@
-/* RedHatDisplay */
-
 @font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Light.woff2") format("woff2");
+  font-family: 'RedHatDisplay';
+  src: url("./modified/RedHatDisplayVFModified.woff2") format('woff2-variations');
+  font-weight: 300 900;
   font-style: normal;
-  font-weight: 200;
   font-display: fallback;
 }
 
 @font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-LightItalic.woff2") format("woff2");
+  font-family: 'RedHatDisplay';
+  src: url("./modified/RedHatDisplayVF-ItalicModified.woff2") format('woff2-variations');
+  font-weight: 300 900;
   font-style: italic;
-  font-weight: 200;
   font-display: fallback;
 }
 
 @font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Regular.woff2") format("woff2");
+  font-family: 'RedHatText';
+  src: url("./modified/RedHatTextVFModified.woff2") format('woff2-variations');
+  font-weight: 400 500;
   font-style: normal;
-  font-weight: 300;
   font-display: fallback;
 }
 
 @font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Italic.woff2") format("woff2");
+  font-family: 'RedHatText';
+  src: url("./modified/RedHatTextVF-ItalicModified.woff2") format('woff2-variations');
+  font-weight: 400 500;
   font-style: italic;
-  font-weight: 300;
   font-display: fallback;
 }
 
 @font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Medium.woff2") format("woff2");
+  font-family: 'RedHatMono';
+  src: url("./RedHatMono/RedHatMonoVF.woff2") format('woff2-variations');
+  font-weight: 300 700;
   font-style: normal;
-  font-weight: 500;
   font-display: fallback;
 }
 
 @font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-MediumItalic.woff2") format("woff2");
+  font-family: 'RedHatMono';
+  src: url("./RedHatMono/RedHatMonoVF-Italic.woff2") format('woff2-variations');
+  font-weight: 300 700;
   font-style: italic;
-  font-weight: 500;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Bold.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-BoldItalic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 700;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-Black.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 900;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatDisplay";
-  src: url("./RedHatDisplay/RedHatDisplay-BlackItalic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 900;
-  font-display: fallback;
-}
-
-/* RedHatText */
-
-@font-face {
-  font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Light.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 300;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-LightItalic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 300;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Italic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 500;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-MediumItalic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 500;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-Bold.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatText";
-  src: url("./RedHatText/RedHatText-BoldItalic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 700;
-  font-display: fallback;
-}
-
-/* RedHatMono */
-
-@font-face {
-  font-family: "RedHatMono";
-  src: url("./RedHatMono/RedHatMono-Light.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 300;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatMono";
-  src: url("./RedHatMono/RedHatMono-LightItalic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 300;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatMono";
-  src: url("./RedHatMono/RedHatMono-Regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatMono";
-  src: url("./RedHatMono/RedHatMono-Italic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatMono";
-  src: url("./RedHatMono/RedHatMono-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 500;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatMono";
-  src: url("./RedHatMono/RedHatMono-MediumItalic.woff2") format("woff2");
-  font-style: italic;
-  font-weight:500;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatMono";
-  src: url("./RedHatMono/RedHatMono-Bold.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: "RedHatMono";
-  src: url("./RedHatMono/RedHatMono-BoldItalic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 700;
   font-display: fallback;
 }
