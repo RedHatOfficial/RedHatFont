@@ -22,6 +22,8 @@ As part of Red Hat’s commitment to open source software, the fonts are made av
 
 Variable fonts are available for each of the Red Hat Typeface families. The fonts include the `wght` axis, which allows for interpolation between light and black weights.
 
+A demo for variable fonts is available at [https://redhatofficial.github.io/RedHatFont/](https://redhatofficial.github.io/RedHatFont/).
+
 ## Building the Fonts
 
 From terminal, run the build script at `sources/build-all.sh`. Fonts output to `fonts/`.
@@ -77,8 +79,7 @@ pip install -U -r requirements.txt
 Give the build scripts permission to run/execute (you can copy & paste, then run both lines in the terminal at once):
 
 ```bash
-chmod +x sources/**/*.sh
-chmod +x mastering/make-github-release/**/*.sh
+chmod +x build-scripts/*.sh
 ```
 
 **Making woff2 files**
@@ -111,19 +112,19 @@ Once you have set up the environment (see above), you can build fonts & prep rel
 To build variable and static fonts, plus make woff2s, use `build-all.sh`. This takes awhile (most of the time is taken up by building TTF & OTF static fonts).
 
 ```bash
-sources/build-all.sh
+./build-all.sh
 ```
 
 If you just want to build variable fonts, use `build.sh`:
 
 ```bash
-sources/build-scripts/build-vf.sh
+./build-scripts/build-vf.sh
 ```
 
 To build only the static fonts (these are secondary to the variable fonts, so you can’t set the version numbers in this script), use `build-statics.sh`:
 
 ```bash
-sources/build-scripts/build-statics.sh
+./build-scripts/build-statics.sh
 ```
 
 ## Installation
