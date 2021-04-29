@@ -3,9 +3,11 @@
   <axes>
     <axis tag="wght" name="Weight" minimum="300" maximum="700" default="300">
       <labelname xml:lang="en">Weight</labelname>
-      <map input="300" output="300"/>
+      <map input="200" output="300"/>
+      <map input="300" output="350"/>
       <map input="400" output="400"/>
       <map input="500" output="535.800000"/>
+      <map input="600" output="617.900000"/>
       <map input="700" output="700"/>
     </axis>
   </axes>
@@ -15,7 +17,7 @@
         <dimension name="Weight" xvalue="400"/>
       </location>
     </source>
-    <source filename="RedHatTextVF-Light.ufo" familyname="Red Hat Text VF" stylename="Light">
+    <source filename="RedHatTextVF-Light.ufo" familyname="Red Hat Text VF" stylename="ExtraLight">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -31,9 +33,23 @@
     </source>
   </sources>
   <instances>
+      <instance familyname="Red Hat Text VF" stylename="Light" filename="instances/RedHatTextVF-Light.ufo" postscriptfontname="RedHatTextVF-Medium">
+      <location>
+        <dimension name="Weight" xvalue="350"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
     <instance familyname="Red Hat Text VF" stylename="Medium" filename="instances/RedHatTextVF-Medium.ufo" postscriptfontname="RedHatTextVF-Medium">
       <location>
         <dimension name="Weight" xvalue="535.800000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+      <instance familyname="Red Hat Text VF" stylename="SemiBold" filename="instances/RedHatTextVF-SemiBold.ufo" postscriptfontname="RedHatTextVF-Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
       </location>
       <kerning/>
       <info/>
