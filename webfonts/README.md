@@ -47,8 +47,26 @@ See the [Red Hat digital design system](https://ux.redhat.com/foundations/typogr
 
 ## How do I recompile the modified font files?
 
+### Install dependencies
 First, follow the instructions in the root [readme](../README.md) to set up your environment for font building.
 
+Then you'll need to install woff2, run:
+```
+git clone --recursive https://github.com/google/woff2.git
+```
+
+Then:
+```
+cd woff2/brotli
+```
+
+Follow the instructions to build & install in the brotli README, after running `make install` add the `out` dir to your `$PATH`.
+
+Now go to the `woff2` directory and follow the instructions in the README to build and install, then add the `out` dir to your `$PATH`.
+
+Now all deps _should_ be installed.
+
+### Build modified font files
 Next, from the root directory, run the modified build script with:
 
 ```bash
