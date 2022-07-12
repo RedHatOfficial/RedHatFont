@@ -2,7 +2,6 @@
 <glyph name="circumflex" format="2">
   <advance width="600"/>
   <unicode hex="02C6"/>
-  <anchor x="300" y="516" name="_top"/>
   <outline>
     <contour>
       <point x="94" y="599" type="line"/>

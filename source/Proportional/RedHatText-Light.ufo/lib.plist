@@ -6,15 +6,13 @@
     <array>
       <dict>
         <key>allowPseudoUnicode</key>
-        <integer>0</integer>
+        <integer>1</integer>
         <key>ascending</key>
         <string>_redhat</string>
         <key>type</key>
         <string>characterSet</string>
       </dict>
     </array>
-    <key>com.robofont.generateFeaturesWithFontTools</key>
-    <false/>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
     <true/>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
@@ -27,14 +25,14 @@
     <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
     <false/>
+    <key>com.typemytype.robofont.generateFeaturesWithFontTools</key>
+    <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.segmentType</key>
     <string>curve</string>
     <key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
     <integer>1</integer>
-    <key>com.typemytype.robofont.smartSets.uniqueKey</key>
-    <string>8115965008</string>
     <key>public.glyphOrder</key>
     <array>
       <string>.notdef</string>
@@ -471,6 +469,20 @@
       <string>uni2215</string>
       <string>uniFEFF</string>
       <string>uniFFFD</string>
+      <string>gravecomb</string>
+      <string>acutecomb</string>
+      <string>uni0302</string>
+      <string>tildecomb</string>
+      <string>uni0304</string>
+      <string>uni0306</string>
+      <string>uni0307</string>
+      <string>uni0308</string>
+      <string>uni030A</string>
+      <string>uni030B</string>
+      <string>uni030C</string>
+      <string>uni0326</string>
+      <string>uni0327</string>
+      <string>uni0328</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>

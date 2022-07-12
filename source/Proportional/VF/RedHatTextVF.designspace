@@ -31,6 +31,20 @@
     </source>
   </sources>
   <instances>
+      <instance familyname="Red Hat Text VF" stylename="Light" filename="instances/RedHatTextVF-Light.ufo" postscriptfontname="RedHatTextVF-Light">
+        <location>
+          <dimension name="Weight" xvalue="300"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
+      <instance familyname="Red Hat Text VF" stylename="Regular" filename="instances/RedHatTextVF-Regular.ufo" postscriptfontname="RedHatTextVF-">
+        <location>
+          <dimension name="Weight" xvalue="400"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
     <instance familyname="Red Hat Text VF" stylename="Medium" filename="instances/RedHatTextVF-Medium.ufo" postscriptfontname="RedHatTextVF-Medium">
       <location>
         <dimension name="Weight" xvalue="535.800000"/>
@@ -41,20 +55,6 @@
     <instance familyname="Red Hat Text VF" stylename="Bold" filename="instances/RedHatTextVF-Bold.ufo" postscriptfontname="RedHatTextVF-Bold">
       <location>
         <dimension name="Weight" xvalue="700"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Text VF" stylename="Regular" filename="instances/RedHatTextVF-Regular.ufo" postscriptfontname="RedHatTextVF-">
-      <location>
-        <dimension name="Weight" xvalue="400"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Text VF" stylename="Light" filename="instances/RedHatTextVF-Light.ufo" postscriptfontname="RedHatTextVF-Light">
-      <location>
-        <dimension name="Weight" xvalue="300"/>
       </location>
       <kerning/>
       <info/>

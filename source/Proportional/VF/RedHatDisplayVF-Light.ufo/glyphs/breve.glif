@@ -2,7 +2,6 @@
 <glyph name="breve" format="2">
   <advance width="600"/>
   <unicode hex="02D8"/>
-  <anchor x="300" y="492" name="_top"/>
   <outline>
     <contour>
       <point x="300" y="588" type="curve"/>

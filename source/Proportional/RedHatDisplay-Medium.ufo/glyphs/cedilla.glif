@@ -2,7 +2,6 @@
 <glyph name="cedilla" format="2">
   <advance width="600"/>
   <unicode hex="00B8"/>
-  <anchor x="303" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="290" y="-231" type="curve" smooth="yes"/>

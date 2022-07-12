@@ -31,6 +31,20 @@
     </source>
   </sources>
   <instances>
+      <instance familyname="Red Hat Mono VF" stylename="Light" filename="instances/RedHatMonoVF-Light.ufo" postscriptfontname="RedHatMonoVF-Light">
+        <location>
+          <dimension name="Weight" xvalue="300"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
+      <instance familyname="Red Hat Mono VF" stylename="Regular" filename="instances/RedHatMonoVF-Regular.ufo" postscriptfontname="RedHatMonoVF-Regular">
+        <location>
+          <dimension name="Weight" xvalue="400"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
     <instance familyname="Red Hat Mono VF" stylename="Medium" filename="instances/RedHatMonoVF-Medium.ufo" postscriptfontname="RedHatMonoVF-Medium">
       <location>
         <dimension name="Weight" xvalue="535.800000"/>
@@ -41,20 +55,6 @@
     <instance familyname="Red Hat Mono VF" stylename="Bold" filename="instances/RedHatMonoVF-Bold.ufo" postscriptfontname="RedHatMonoVF-Bold">
       <location>
         <dimension name="Weight" xvalue="700"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Mono VF" stylename="Regular" filename="instances/RedHatMonoVF-Regular.ufo" postscriptfontname="RedHatMonoVF-Regular">
-      <location>
-        <dimension name="Weight" xvalue="400"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Mono VF" stylename="Light" filename="instances/RedHatMonoVF-Light.ufo" postscriptfontname="RedHatMonoVF-Light">
-      <location>
-        <dimension name="Weight" xvalue="300"/>
       </location>
       <kerning/>
       <info/>

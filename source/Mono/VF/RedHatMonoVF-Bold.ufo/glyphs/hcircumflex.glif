@@ -3,28 +3,13 @@
   <advance width="600"/>
   <unicode hex="0125"/>
   <outline>
-    <contour>
-      <point x="59" y="0" type="line"/>
-      <point x="221" y="0" type="line"/>
-      <point x="221" y="366" type="line"/>
-      <point x="242" y="387"/>
-      <point x="267" y="397"/>
-      <point x="297" y="397" type="curve" smooth="yes"/>
-      <point x="349" y="397"/>
-      <point x="383" y="359"/>
-      <point x="383" y="301" type="curve" smooth="yes"/>
-      <point x="383" y="0" type="line"/>
-      <point x="545" y="0" type="line"/>
-      <point x="545" y="348" type="line" smooth="yes"/>
-      <point x="545" y="451"/>
-      <point x="474" y="524"/>
-      <point x="374" y="524" type="curve" smooth="yes"/>
-      <point x="312" y="524"/>
-      <point x="260" y="497"/>
-      <point x="221" y="446" type="curve"/>
-      <point x="221" y="727" type="line"/>
-      <point x="59" y="727" type="line"/>
-    </contour>
-    <component base="circumflex" xOffset="-162" yOffset="184"/>
+    <component base="h"/>
+    <component base="uni0302" xOffset="-162" yOffset="184"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
 </glyph>

@@ -3,7 +3,7 @@
   <advance width="530"/>
   <outline>
     <component base="g.alt"/>
-    <component base="commaaccent" xScale="-1.0" yScale="-1.0" xOffset="564" yOffset="512"/>
+    <component base="commaaccent" xScale="-1" yScale="-1" xOffset="564" yOffset="512"/>
   </outline>
   <lib>
     <dict>
