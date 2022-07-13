@@ -2,7 +2,6 @@
 <glyph name="commaaccent" format="2">
   <advance width="600"/>
   <guideline x="299" y="-6" angle="90.0" identifier="TB9epO5wox"/>
-  <anchor x="299" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="169" y="-295" type="line"/>

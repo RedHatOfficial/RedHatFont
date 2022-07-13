@@ -9,12 +9,13 @@ UPRIGHT_AXES = [
         name="Weight",
         ordering=0,
         values=[
-            dict(nominalValue=300, rangeMinValue=200, rangeMaxValue=350, name="Light"),
-            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=400, name="Regular", flags=0x2, linkedValue=700),
-            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=650, name="Medium"),
-            dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=850, name="Bold"),
-            dict(nominalValue=900, rangeMinValue=850, rangeMaxValue=950, name="Black"),
-            # dict(value=400, name="Regular", flags=0x2, linkedValue=700),  # Regular
+            dict(value=300, name="Light"),
+            dict(value=400, name="Regular", flags=0x2, linkedValue=700,),
+            dict(value=500, name="Medium"),
+            dict(value=600, name="SemiBold"),
+            dict(value=700, name="Bold"),
+            dict(value=800, name="ExtraBold"),
+            dict(value=900, name="Black"),
         ],
     ),
     dict(
@@ -33,12 +34,13 @@ ITALIC_AXES = [
         name="Weight",
         ordering=0,
         values=[
-            dict(nominalValue=300, rangeMinValue=200, rangeMaxValue=350, name="Light"),
-            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=400, name="Regular", flags=0x2, linkedValue=700),
-            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=650, name="Medium"),
-            dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=850, name="Bold"),
-            dict(nominalValue=900, rangeMinValue=850, rangeMaxValue=950, name="Black"),
-            # dict(value=400, name="Regular", flags=0x2, linkedValue=700),  # Regular
+            dict(value=300, name="Light"),
+            dict(value=400, name="Regular", flags=0x2, linkedValue=700,),
+            dict(value=500, name="Medium"),
+            dict(value=600, name="SemiBold"),
+            dict(value=700, name="Bold"),
+            dict(value=800, name="ExtraBold"),
+            dict(value=900, name="Black"),
         ],
     ),
     dict(
@@ -51,8 +53,8 @@ ITALIC_AXES = [
     ),
 ]
 
-UPRIGHT_SRC = f"./fonts/proportional/RedHatDisplayVF[wght].ttf"
-ITALIC_SRC = f"./fonts/proportional/RedHatDisplayVF-Italic[wght].ttf"
+UPRIGHT_SRC = f"./fonts/proportional/RedHatDisplay[wght].ttf"
+ITALIC_SRC = f"./fonts/proportional/RedHatDisplay-Italic[wght].ttf"
 
 def update_fvar(ttfont):
     fvar = ttfont['fvar']

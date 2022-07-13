@@ -28,7 +28,7 @@
     <array>
       <integer>2</integer>
       <integer>1</integer>
-      <integer>3</integer>
+      <integer>5</integer>
       <integer>3</integer>
       <integer>4</integer>
       <integer>2</integer>
@@ -36,6 +36,10 @@
       <integer>6</integer>
       <integer>3</integer>
       <integer>3</integer>
+    </array>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
     </array>
     <key>openTypeOS2StrikeoutPosition</key>
     <integer>317</integer>
@@ -75,12 +79,6 @@
     <integer>1018</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>305</integer>
-    <key>openTypeVheaVertTypoAscender</key>
-    <integer>1018</integer>
-    <key>openTypeVheaVertTypoDescender</key>
-    <integer>305</integer>
-    <key>openTypeVheaVertTypoLineGap</key>
-    <integer>0</integer>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-11</integer>
@@ -91,19 +89,16 @@
       <integer>711</integer>
     </array>
     <key>postscriptFamilyBlues</key>
-    <array>
-      <integer>-11</integer>
-      <integer>0</integer>
-      <integer>501</integer>
-      <integer>511</integer>
-      <integer>700</integer>
-      <integer>711</integer>
-    </array>
+    <array/>
     <key>postscriptFamilyOtherBlues</key>
     <array>
       <integer>-214</integer>
       <integer>-204</integer>
     </array>
+    <key>postscriptFontName</key>
+    <string>RedHatDisplayVF-Regular</string>
+    <key>postscriptFullName</key>
+    <string>RedHatDisplayVFRegular</string>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>-214</integer>
@@ -111,15 +106,15 @@
     </array>
     <key>postscriptStemSnapH</key>
     <array>
-      <integer>40</integer>
-      <integer>42</integer>
-      <integer>43</integer>
+      <integer>63</integer>
+      <integer>66</integer>
+      <integer>69</integer>
+      <integer>71</integer>
     </array>
     <key>postscriptStemSnapV</key>
     <array>
-      <integer>44</integer>
-      <integer>46</integer>
-      <integer>47</integer>
+      <integer>74</integer>
+      <integer>77</integer>
     </array>
     <key>postscriptUnderlinePosition</key>
     <integer>-200</integer>
@@ -134,7 +129,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>10</integer>
+    <integer>23</integer>
     <key>xHeight</key>
     <integer>501</integer>
   </dict>

@@ -3,7 +3,7 @@
   <advance width="632"/>
   <outline>
     <component base="a.school"/>
-    <component base="grave" xOffset="1"/>
+    <component base="gravecomb" xOffset="1"/>
   </outline>
   <lib>
     <dict>

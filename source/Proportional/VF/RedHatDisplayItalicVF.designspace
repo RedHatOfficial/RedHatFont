@@ -32,27 +32,20 @@
     </source>
   </sources>
   <instances>
-    <instance familyname="Red Hat Display VF" stylename="Black Italic" filename="instances/RedHatDisplayVF-BlackItalic.ufo" postscriptfontname="RedHatDisplayVF-BlackItalic">
-      <location>
-        <dimension name="Weight" xvalue="900"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Display VF" stylename="Light Italic" filename="instances/RedHatDisplayVF-LightItalic.ufo" postscriptfontname="RedHatDisplayVF-LightItalic">
-      <location>
-        <dimension name="Weight" xvalue="300"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Display VF" stylename="Italic" filename="instances/RedHatDisplayVF-Italic.ufo" postscriptfontname="RedHatDisplayVF-Italic">
-      <location>
-        <dimension name="Weight" xvalue="400"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
+      <instance familyname="Red Hat Display VF" stylename="Light Italic" filename="instances/RedHatDisplayVF-LightItalic.ufo" postscriptfontname="RedHatDisplayVF-LightItalic">
+        <location>
+          <dimension name="Weight" xvalue="300"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
+      <instance familyname="Red Hat Display VF" stylename="Italic" filename="instances/RedHatDisplayVF-Italic.ufo" postscriptfontname="RedHatDisplayVF-Italic">
+        <location>
+          <dimension name="Weight" xvalue="400"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
     <instance familyname="Red Hat Display VF" stylename="Medium Italic" filename="instances/RedHatDisplayVF-MediumItalic.ufo" postscriptfontname="RedHatDisplayVF-MediumItalic">
       <location>
         <dimension name="Weight" xvalue="547.300000"/>
@@ -63,6 +56,13 @@
     <instance familyname="Red Hat Display VF" stylename="Bold Italic" filename="instances/RedHatDisplayVF-BoldItalic.ufo" postscriptfontname="RedHatDisplayVF-BoldItalic">
       <location>
         <dimension name="Weight" xvalue="757.700000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Display VF" stylename="Black Italic" filename="instances/RedHatDisplayVF-BlackItalic.ufo" postscriptfontname="RedHatDisplayVF-BlackItalic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
       </location>
       <kerning/>
       <info/>

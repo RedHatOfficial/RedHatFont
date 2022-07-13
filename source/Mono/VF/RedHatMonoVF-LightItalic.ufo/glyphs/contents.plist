@@ -276,6 +276,8 @@
     <string>acircumflex.school.glif</string>
     <key>acute</key>
     <string>acute.glif</string>
+    <key>acutecomb</key>
+    <string>acutecomb.glif</string>
     <key>adieresis</key>
     <string>adieresis.glif</string>
     <key>adieresis.school</key>
@@ -472,6 +474,8 @@
     <string>germandbls.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
+    <key>gravecomb</key>
+    <string>gravecomb.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>guillemotleft</key>
@@ -710,6 +714,8 @@
     <string>threesuperior.glif</string>
     <key>tilde</key>
     <string>tilde.glif</string>
+    <key>tildecomb</key>
+    <string>tildecomb.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
     <key>two</key>
@@ -754,6 +760,28 @@
     <string>uni02B_B_.glif</string>
     <key>uni02BC</key>
     <string>uni02B_C_.glif</string>
+    <key>uni0302</key>
+    <string>uni0302.glif</string>
+    <key>uni0304</key>
+    <string>uni0304.glif</string>
+    <key>uni0306</key>
+    <string>uni0306.glif</string>
+    <key>uni0307</key>
+    <string>uni0307.glif</string>
+    <key>uni0308</key>
+    <string>uni0308.glif</string>
+    <key>uni030A</key>
+    <string>uni030A_.glif</string>
+    <key>uni030B</key>
+    <string>uni030B_.glif</string>
+    <key>uni030C</key>
+    <string>uni030C_.glif</string>
+    <key>uni0326</key>
+    <string>uni0326.glif</string>
+    <key>uni0327</key>
+    <string>uni0327.glif</string>
+    <key>uni0328</key>
+    <string>uni0328.glif</string>
     <key>uni2015</key>
     <string>uni2015.glif</string>
     <key>uni2015.cap</key>

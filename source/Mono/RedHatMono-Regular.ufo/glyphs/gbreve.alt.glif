@@ -3,7 +3,7 @@
   <advance width="600"/>
   <outline>
     <component base="g.alt"/>
-    <component base="breve" xOffset="-9"/>
+    <component base="uni0306" xOffset="-9"/>
   </outline>
   <lib>
     <dict>

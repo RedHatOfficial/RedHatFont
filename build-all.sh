@@ -17,3 +17,15 @@ build-scripts/build-vf.sh $version
 build-scripts/build-statics.sh 
 
 build-scripts/make-woff2s.sh
+
+echo "bump up version"
+gftools update-version ./fonts/proportional/RedHatDisplay-Italic\[wght\].ttf ./fonts/proportional/RedHatDisplay\[wght\].ttf ./fonts/proportional/RedHatText-Italic\[wght\].ttf ./fonts/proportional/RedHatText\[wght\].ttf ./fonts/mono/RedHatMono-Italic\[wght\].ttf ./fonts/mono/RedHatMono\[wght\].ttf 1.010 1.021
+
+mv -f ./fonts/proportional/RedHatDisplay-Italic\[wght\].ttf.fix ./fonts/proportional/RedHatDisplay-Italic\[wght\].ttf
+mv -f ./fonts/proportional/RedHatDisplay\[wght\].ttf.fix ./fonts/proportional/RedHatDisplay\[wght\].ttf
+mv -f ./fonts/proportional/RedHatText-Italic\[wght\].ttf.fix ./fonts/proportional/RedHatText-Italic\[wght\].ttf
+mv -f ./fonts/proportional/RedHatText\[wght\].ttf.fix ./fonts/proportional/RedHatText\[wght\].ttf
+mv -f ./fonts/mono/RedHatMono-Italic\[wght\].ttf.fix ./fonts/mono/RedHatMono-Italic\[wght\].ttf
+mv -f ./fonts/mono/RedHatMono\[wght\].ttf.fix ./fonts/mono/RedHatMono\[wght\].ttf
+
+echo "Complete"
