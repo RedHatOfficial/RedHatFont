@@ -24,10 +24,10 @@ fontmake -m source/Mono/RedHatMonoVFItalic.designspace -o variable --no-producti
 #split the mono out and put it in fonts/mono/
 
 #split the proportional out and put them in fonts/proportional
-fontmake -m source/Proportional/VF/RedHatTextVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF[wght].ttf
-fontmake -m source/Proportional/VF/RedHatTextItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF-Italic[wght].ttf
-fontmake -m source/Proportional/VF/RedHatDisplayVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF[wght].ttf
-fontmake -m source/Proportional/VF/RedHatDisplayItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF-Italic[wght].ttf
+fontmake -m source/Proportional/VF/RedHatTextVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF.ttf
+fontmake -m source/Proportional/VF/RedHatTextItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF-Italic.ttf
+fontmake -m source/Proportional/VF/RedHatDisplayVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF.ttf
+fontmake -m source/Proportional/VF/RedHatDisplayItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF-Italic.ttf
 
 fontmake -m source/Proportional/RedHatTextVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatText[wght].ttf
 fontmake -m source/Proportional/RedHatTextItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatText-Italic[wght].ttf
@@ -154,4 +154,4 @@ rm -f fonts/static/ttf/*gasp.ttf
 
 echo "Done Generating"
 
-# # # You should check the fonts now with fontbakery, and generate a markdown file. 
+# # # You should check the fonts now with fontbakery, and generate a markdown file.
