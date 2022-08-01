@@ -4,7 +4,7 @@
   <unicode hex="00C3"/>
   <outline>
     <component base="A"/>
-    <component base="tilde" xOffset="53" yOffset="219"/>
+    <component base="tildecomb" xOffset="52.999999999987494" yOffset="219"/>
   </outline>
   <lib>
     <dict>

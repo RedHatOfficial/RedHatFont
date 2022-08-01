@@ -20,9 +20,11 @@ As part of Red Hat’s commitment to open source software, the fonts are made av
 
 ## Variable Fonts
 
+ A demo for variable fonts is available at [https://redhatofficial.github.io/RedHatFont/](https://redhatofficial.github.io/RedHatFont/).
+
 Variable fonts are available for each of the Red Hat Typeface families. The fonts include the `wght` axis, which allows for interpolation between light and black weights.
 
-A demo for variable fonts is available at [https://redhatofficial.github.io/RedHatFont/](https://redhatofficial.github.io/RedHatFont/).
+There are two versions of the variable fonts: with and without VF in the name. It is Red Hat's preference to name these differently than the OTF / TTF fonts, but Google requires the names to be the same. We recommend using ***either*** the VF or standard named variable fonts, but not both.
 
 ## Building the Fonts
 
@@ -80,6 +82,7 @@ Give the build scripts permission to run/execute (you can copy & paste, then run
 
 ```bash
 chmod +x build-scripts/*.sh
+chmod +x mastering/make-github-release/**/*.sh
 ```
 
 **Making woff2 files**
@@ -112,19 +115,19 @@ Once you have set up the environment (see above), you can build fonts & prep rel
 To build variable and static fonts, plus make woff2s, use `build-all.sh`. This takes awhile (most of the time is taken up by building TTF & OTF static fonts).
 
 ```bash
-./build-all.sh
+build-scripts/build-all.sh
 ```
 
 If you just want to build variable fonts, use `build.sh`:
 
 ```bash
-./build-scripts/build-vf.sh
+build-scripts/build-vf.sh
 ```
 
 To build only the static fonts (these are secondary to the variable fonts, so you can’t set the version numbers in this script), use `build-statics.sh`:
 
 ```bash
-./build-scripts/build-statics.sh
+build-scripts/build-statics.sh
 ```
 
 ## Installation

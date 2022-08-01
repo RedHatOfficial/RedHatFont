@@ -3,7 +3,6 @@
   <advance width="600"/>
   <unicode hex="00B8"/>
   <guideline x="300" y="0" angle="0.0" color="0.999,0.001,0.001,0.999" identifier="4RmmuUlyDz"/>
-  <anchor x="300" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="292" y="-239" type="curve" smooth="yes"/>

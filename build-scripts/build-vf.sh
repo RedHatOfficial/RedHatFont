@@ -19,13 +19,20 @@ mkdir -p fonts/proportional/
 
 fontmake -m source/Mono/VF/RedHatMonoVF.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMonoVF[wght].ttf
 fontmake -m source/Mono/VF/RedHatMonoVFItalic.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMonoVF-Italic[wght].ttf
+fontmake -m source/Mono/RedHatMonoVF.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMono[wght].ttf
+fontmake -m source/Mono/RedHatMonoVFItalic.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMono-Italic[wght].ttf
 #split the mono out and put it in fonts/mono/
 
 #split the proportional out and put them in fonts/proportional
-fontmake -m source/Proportional/VF/RedHatTextVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF[wght].ttf
-fontmake -m source/Proportional/VF/RedHatTextItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF-Italic[wght].ttf
-fontmake -m source/Proportional/VF/RedHatDisplayVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF[wght].ttf
-fontmake -m source/Proportional/VF/RedHatDisplayItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF-Italic[wght].ttf
+fontmake -m source/Proportional/VF/RedHatTextVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF.ttf
+fontmake -m source/Proportional/VF/RedHatTextItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF-Italic.ttf
+fontmake -m source/Proportional/VF/RedHatDisplayVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF.ttf
+fontmake -m source/Proportional/VF/RedHatDisplayItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF-Italic.ttf
+
+fontmake -m source/Proportional/RedHatTextVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatText[wght].ttf
+fontmake -m source/Proportional/RedHatTextItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatText-Italic[wght].ttf
+fontmake -m source/Proportional/RedHatDisplayVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplay[wght].ttf
+fontmake -m source/Proportional/RedHatDisplayItalicVF.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplay-Italic[wght].ttf
 
 
 
@@ -67,6 +74,9 @@ echo "Add STAT table"
 python mastering/gen_stat_mono.py
 python mastering/gen_stat_text.py
 python mastering/gen_stat_disp.py
+python mastering/gen_stat_monoVF.py
+python mastering/gen_stat_textVF.py
+python mastering/gen_stat_dispVF.py
 
 echo "stat add complete"
 
@@ -144,4 +154,4 @@ rm -f fonts/static/ttf/*gasp.ttf
 
 echo "Done Generating"
 
-# # # You should check the fonts now with fontbakery, and generate a markdown file. 
+# # # You should check the fonts now with fontbakery, and generate a markdown file.

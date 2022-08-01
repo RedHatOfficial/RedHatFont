@@ -3,17 +3,13 @@
   <advance width="215"/>
   <unicode hex="013A"/>
   <outline>
-    <contour>
-      <point x="162" y="794" type="line"/>
-      <point x="248" y="794" type="line"/>
-      <point x="399" y="916" type="line"/>
-      <point x="279" y="916" type="line"/>
-    </contour>
-    <contour>
-      <point x="5" y="0" type="line"/>
-      <point x="103" y="0" type="line"/>
-      <point x="251" y="700" type="line"/>
-      <point x="154" y="700" type="line"/>
-    </contour>
+    <component base="l"/>
+    <component base="acutecomb" xOffset="-154.99999999998576" yOffset="191"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.75</string>
+    </dict>
+  </lib>
 </glyph>

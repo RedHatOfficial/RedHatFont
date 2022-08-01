@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="700" default="300">
+      <labelname xml:lang="en">Weight</labelname>
+      <map input="300" output="300"/>
+      <map input="400" output="400"/>
+      <map input="500" output="535.800000"/>
+      <map input="600" output="535.900000"/>
+      <map input="700" output="700"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="RedHatMono-Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="RedHatMono-LightItalic.ufo">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+    </source>
+    <source filename="RedHatMono-BoldItalic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Red Hat Mono" stylename="Light Italic" filename="instances/RedHatMono-LightItalic.ufo" postscriptfontname="RedHatMono-LightItalic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="Italic" filename="instances/RedHatMono-Italic.ufo" postscriptfontname="RedHatMono-Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="Medium Italic" filename="instances/RedHatMono-MediumItalic.ufo" postscriptfontname="RedHatMono-MediumItalic">
+      <location>
+        <dimension name="Weight" xvalue="535.800000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="SemiBold Italic" filename="instances/RedHatMono-SemiBoldItalic.ufo" postscriptfontname="RedHatMono-SemiBoldItalic">
+      <location>
+        <dimension name="Weight" xvalue="535.900000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Mono" stylename="Bold Italic" filename="instances/RedHatMono-BoldItalic.ufo" postscriptfontname="RedHatMono-BoldItalic">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+    </dict>
+  </lib>
+</designspace>

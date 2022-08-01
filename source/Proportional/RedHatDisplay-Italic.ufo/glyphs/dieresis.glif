@@ -4,7 +4,6 @@
   <unicode hex="00A8"/>
   <guideline x="385" y="666" angle="90.0" identifier="G6pga27Q2X"/>
   <guideline x="385" y="666" angle="0.0" identifier="HxZdKMpyy6"/>
-  <anchor x="355" y="501" name="_top"/>
   <outline>
     <contour>
       <point x="295" y="602" type="curve" smooth="yes"/>

@@ -2,7 +2,6 @@
 <glyph name="hungarumlaut" format="2">
   <advance width="600"/>
   <unicode hex="02DD"/>
-  <anchor x="351" y="481" name="_top"/>
   <outline>
     <contour>
       <point x="235" y="577" type="line"/>

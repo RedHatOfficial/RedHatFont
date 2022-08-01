@@ -31,6 +31,20 @@
     </source>
   </sources>
   <instances>
+      <instance familyname="Red Hat Mono VF" stylename="Light Italic" filename="instances/RedHatMonoVF-LightItalic.ufo" postscriptfontname="RedHatMonoVF-LightItalic">
+        <location>
+          <dimension name="Weight" xvalue="300"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
+      <instance familyname="Red Hat Mono VF" stylename="Italic" filename="instances/RedHatMonoVF-Italic.ufo" postscriptfontname="RedHatMonoVF-Italic">
+        <location>
+          <dimension name="Weight" xvalue="400"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
     <instance familyname="Red Hat Mono VF" stylename="Medium Italic" filename="instances/RedHatMonoVF-MediumItalic.ufo" postscriptfontname="RedHatMonoVF-MediumItalic">
       <location>
         <dimension name="Weight" xvalue="535.800000"/>
@@ -41,20 +55,6 @@
     <instance familyname="Red Hat Mono VF" stylename="Bold Italic" filename="instances/RedHatMonoVF-BoldItalic.ufo" postscriptfontname="RedHatMonoVF-BoldItalic">
       <location>
         <dimension name="Weight" xvalue="700"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Mono VF" stylename="Italic" filename="instances/RedHatMonoVF-Italic.ufo" postscriptfontname="RedHatMonoVF-Italic">
-      <location>
-        <dimension name="Weight" xvalue="400"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Mono VF" stylename="Light Italic" filename="instances/RedHatMonoVF-LightItalic.ufo" postscriptfontname="RedHatMonoVF-LightItalic">
-      <location>
-        <dimension name="Weight" xvalue="300"/>
       </location>
       <kerning/>
       <info/>

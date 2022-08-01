@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0302" format="2">
+  <anchor x="300" y="488" name="_top"/>
+  <outline>
+    <contour>
+      <point x="147" y="599" type="line"/>
+      <point x="206" y="599" type="line"/>
+      <point x="299" y="683" type="line"/>
+      <point x="393" y="599" type="line"/>
+      <point x="453" y="599" type="line"/>
+      <point x="339" y="726" type="line"/>
+      <point x="261" y="726" type="line"/>
+    </contour>
+  </outline>
+</glyph>

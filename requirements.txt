@@ -1,6 +1,6 @@
 afdko
 fontmake
-git+https://github.com/googlefonts/gftools
+gftools
 statmake
 fontbakery
 font-v

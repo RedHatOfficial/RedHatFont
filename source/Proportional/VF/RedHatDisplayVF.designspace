@@ -32,27 +32,20 @@
     </source>
   </sources>
   <instances>
-    <instance familyname="Red Hat Display VF" stylename="Black" filename="instances/RedHatDisplayVF-Black.ufo" postscriptfontname="RedHatDisplayVF-Black">
-      <location>
-        <dimension name="Weight" xvalue="900"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Display VF" stylename="Light" filename="instances/RedHatDisplayVF-Light.ufo" postscriptfontname="RedHatDisplayVF-Light">
-      <location>
-        <dimension name="Weight" xvalue="300"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance familyname="Red Hat Display VF" stylename="Regular" filename="instances/RedHatDisplayVF-Regilar.ufo" postscriptfontname="RedHatDisplayVF-Regular">
-      <location>
-        <dimension name="Weight" xvalue="400"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
+      <instance familyname="Red Hat Display VF" stylename="Light" filename="instances/RedHatDisplayVF-Light.ufo" postscriptfontname="RedHatDisplayVF-Light">
+        <location>
+          <dimension name="Weight" xvalue="300"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
+      <instance familyname="Red Hat Display VF" stylename="Regular" filename="instances/RedHatDisplayVF-Regilar.ufo" postscriptfontname="RedHatDisplayVF-Regular">
+        <location>
+          <dimension name="Weight" xvalue="400"/>
+        </location>
+        <kerning/>
+        <info/>
+      </instance>
     <instance familyname="Red Hat Display VF" stylename="Medium" filename="instances/RedHatDisplayVF-Medium.ufo" postscriptfontname="RedHatDisplayVF-Medium">
       <location>
         <dimension name="Weight" xvalue="547.300000"/>
@@ -63,6 +56,13 @@
     <instance familyname="Red Hat Display VF" stylename="Bold" filename="instances/RedHatDisplayVF-Bold.ufo" postscriptfontname="RedHatDisplayVF-Bold">
       <location>
         <dimension name="Weight" xvalue="757.700000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Red Hat Display VF" stylename="Black" filename="instances/RedHatDisplayVF-Black.ufo" postscriptfontname="RedHatDisplayVF-Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
       </location>
       <kerning/>
       <info/>

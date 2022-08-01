@@ -52,6 +52,10 @@
       <integer>3</integer>
       <integer>3</integer>
     </array>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
     <key>openTypeOS2StrikeoutPosition</key>
     <integer>317</integer>
     <key>openTypeOS2StrikeoutSize</key>
@@ -153,7 +157,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>10</integer>
+    <integer>23</integer>
     <key>xHeight</key>
     <integer>516</integer>
   </dict>

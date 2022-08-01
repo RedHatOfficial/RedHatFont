@@ -3,7 +3,7 @@
   <advance width="600"/>
   <outline>
     <component base="g.alt"/>
-    <component base="dotaccent" xOffset="-34"/>
+    <component base="uni0307" xOffset="-33.99999999997027"/>
   </outline>
   <lib>
     <dict>
