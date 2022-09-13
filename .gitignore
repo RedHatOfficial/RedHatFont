@@ -1,4 +1,3 @@
 .DS_Store
-
 # Ignore virtual environment Python files for compiling the font.
 venv
