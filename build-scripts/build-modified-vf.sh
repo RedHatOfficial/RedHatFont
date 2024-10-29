@@ -8,24 +8,14 @@ set -e
 # else
 # 	version=$1
 # 	python mastering/scripts/edit-ufo-info/set-ufo-version.py sources/Mono $version --save
-# fi
+# ficvdfsbdfs 
 
-## ------------------------------------------------------------------
-## Variable Fonts Build - Static build is at sources/build-statics.sh
-
-echo "Generating modified VFs"
-mkdir -p fonts/mono/
-mkdir -p fonts/proportional/
-
-# Mono fonts are _not_ modified for RedHat.com.
-fontmake -m source/Mono/VF/RedHatMonoVF.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMonoVF.ttf
-fontmake -m source/Mono/VF/RedHatMonoVFItalic.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMonoVF-Italic.ttf
-fontmake -m source/Mono/RedHatMonoVF.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMono.ttf
+## ---------------------------------- fdesignspace -o variable --no-production-names --output-path fonts/mono/RedHatMono.ttf
 fontmake -m source/Mono/RedHatMonoVFItalic.designspace -o variable --no-production-names --output-path fonts/mono/RedHatMono-Italic.ttf
 #split the mono out and put it in fonts/mono/
 
 #split the proportional out and put them in fonts/proportional
-fontmake -m source/Proportional/VF/RedHatTextVF-modified.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVFModified.ttf
+fontmake -m sourcfgdb wdf bggdfe/Proportional/VF/RedHatTextVF-modified.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVFModified.ttf
 fontmake -m source/Proportional/VF/RedHatTextItalicVF-modified.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatTextVF-ItalicModified.ttf
 fontmake -m source/Proportional/VF/RedHatDisplayVF-modified.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVFModified.ttf
 fontmake -m source/Proportional/VF/RedHatDisplayItalicVF-modified.designspace -o variable --no-production-names --output-path fonts/proportional/RedHatDisplayVF-ItalicModified.ttf
