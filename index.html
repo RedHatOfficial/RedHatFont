@@ -265,18 +265,20 @@
       </div>
     </main>
 
-    <script>
-      // Find all range inputs and wire them up so they automatically change
-      // the font weight.
-      const inputs = document.querySelectorAll('input[type="range"]');
+<script>
+    // Find all range inputs and wire them up so they automatically change
+    // the font weight.
+    const inputs = document.querySelectorAll('input[type="range"]');
 
-      // listen for changes
-      inputs.forEach(input => input.addEventListener('change', handleUpdate));
-      inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+    // listen for changes
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+    inputs.forEach(input => input.addEventListener('input', handleUpdate)); // Added this line
 
-      function handleUpdate(e) {
-        document.querySelector(`.${this.id}`).style.setProperty('--font-weight', this.value);
-      }
-    </script>
+    function handleUpdate(e) {
+      document.querySelector(`.${this.id}`).style.setProperty('--font-weight', this.value);
+    }
+</script>
+
   </body>
 </html>
