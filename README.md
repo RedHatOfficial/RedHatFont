@@ -78,12 +78,6 @@ cd RedHatFont
 pip install -U -r requirements.txt
 ```
 
-Give the build scripts permission to run/execute (you can copy & paste, then run both lines in the terminal at once):
-
-```bash
-chmod +x build-scripts/*.sh
-chmod +x mastering/make-github-release/**/*.sh
-```
 
 **Making woff2 files**
 
@@ -112,23 +106,18 @@ Once woff2_compress is working in your terminal, you can now run the build!
 
 Once you have set up the environment (see above), you can build fonts & prep releases!
 
-To build variable and static fonts, plus make woff2s, use `build-all.sh`. This takes awhile (most of the time is taken up by building TTF & OTF static fonts).
+1.030 uses GFTOOLS builder to build the fonts. It should be as simple as running
 
 ```bash
-build-scripts/build-all.sh
+gftools builder source/Mono/config.yaml
 ```
-
-If you just want to build variable fonts, use `build.sh`:
-
 ```bash
-build-scripts/build-vf.sh
+gftools builder source/Proportional/RedHatDisplay/config.yaml
 ```
-
-To build only the static fonts (these are secondary to the variable fonts, so you can’t set the version numbers in this script), use `build-statics.sh`:
-
 ```bash
-build-scripts/build-statics.sh
+gftools builder source/Proportional/RedHatText/config.yaml
 ```
+
 
 ## Installation
 
