@@ -4,7 +4,7 @@
 
 ### Jeremy Mickel
 
-Jeremy Mickel runs [MCKL](https://www.mckltype.com), a Los Angeles-based type foundry and design studio publishing original fonts and creating custom designs for clients. Founded in 2012, MCKL has collaborated with leading design firms, companies, and organizations around the world to provide custom typeface and logo design services. Mickel's work has been recognized by the Type Directors Club and the AIGA, and he has taught at RISD and the Minneapolis College of Art and Design.
+Jeremy Mickel runs [MCKL](https://mckltype.com), a Los Angeles-based type foundry and design studio publishing original fonts and creating custom designs for clients. Founded in 2012, MCKL has collaborated with leading design firms, companies, and organizations around the world to provide custom typeface and logo design services. Mickel's work has been recognized by the Type Directors Club and the AIGA, and he has taught at RISD and the Minneapolis College of Art and Design.
 
 ## About Red Hat Display and Red Hat Text
 
