@@ -6,14 +6,14 @@ Font CSS is available via `webfonts-demo/font.css` or `webfonts-demo/font.min.cs
 
 ## Woff2 files can be found in:
 
-* `fonts/mono/RedHatMono/webfonts`
-* `fonts/proportional/RedHatDisplay/webfonts`
-* `fonts/proportional/RedHatText/webfonts`
+* `fonts/Mono/RedHatMono/webfonts`
+* `fonts/Proportional/RedHatDisplay/webfonts`
+* `fonts/Proportional/RedHatText/webfonts`
 
 ## Local development
 
 Generate new minified versions of the CSS files by running `npm run minify` at the project root.
 
-Spin up a local browser to review the `webfonts/index.html` file by running `npm start` at the project root.
+Spin up a local browser to review the `webfonts-demo/index.html` file by running `npm start` at the project root.
 
 See the [Red Hat digital design system](https://ux.redhat.com/foundations/typography/) for more font weight information.

@@ -6,7 +6,7 @@
   "scripts": {
     "minify": "npx csso-cli webfonts-demo/font.css --output webfonts-demo/font.min.css",
     "start": "npm run copy-to-webfonts-dist && npx browser-sync start -s 'webfonts-demo' -f 'webfonts-demo'",
-    "copy-to-webfonts-dist": "mkdir -p ./webfonts-demo/dist && cp ./fonts/mono/RedHatMono/webfonts/*-VF.woff2 ./webfonts-demo/dist && cp ./fonts/proportional/{RedHatDisplay,RedHatText}/webfonts/*-VF.woff2 ./webfonts-demo/dist",
+    "copy-to-webfonts-dist": "mkdir -p ./webfonts-demo/dist && cp ./fonts/Mono/RedHatMono/webfonts/*-VF.woff2 ./webfonts-demo/dist && cp ./fonts/Proportional/{RedHatDisplay,RedHatText}/webfonts/*-VF.woff2 ./webfonts-demo/dist",
     "test": ""
   },
   "keywords": [
