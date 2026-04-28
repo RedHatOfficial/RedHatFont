@@ -146,7 +146,7 @@ Since all the fonts available here are licensed with permission to redistribute,
 
 ## Licensing
 
-Copyright 2021 Red Hat, Inc.
+Copyright 2026 Red Hat, Inc.
 
 Licensed under the SIL Open Font License, Version 1.1, with Reserved Font Name Red Hat.
 
