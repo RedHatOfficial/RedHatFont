@@ -1,12 +1,12 @@
 {
   "name": "@redhat/redhat-font",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Red Hat - the open source font for Red Hat",
   "main": "red-hat-font.css",
   "scripts": {
-    "minify": "npx csso-cli webfonts/red-hat-font.css --output webfonts/red-hat-font.min.css & npx csso-cli webfonts/font.css --output webfonts/font.min.css",
-    "local": "npx browser-sync start -s 'webfonts' -f 'webfonts'",
-    "copy-to-webfonts": "cp ./fonts/mono/static/web/RedHatMono*.woff2 ./webfonts/RedHatMono/ && cp ./fonts/proportional/static/web/RedHatDisplay*.woff2 ./webfonts/RedHatDisplay/ && cp ./fonts/proportional/static/web/RedHatText*.woff2 ./webfonts/RedHatText/ && cp ./fonts/proportional/web/{RedHatDisplayVF.woff2,RedHatDisplayVF-Italic.woff2} ./webfonts/RedHatDisplay && cp ./fonts/proportional/web/{RedHatTextVF.woff2,RedHatTextVF-Italic.woff2} ./webfonts/RedHatText && cp ./fonts/proportional/web/*Modified.woff2 ./webfonts/modified && cp ./fonts/mono/web/{*Italic.woff2,*VF.woff2} ./webfonts/RedHatMono",
+    "minify": "npx csso-cli webfonts-demo/font.css --output webfonts-demo/font.min.css",
+    "start": "npm run copy-to-webfonts-dist && npx browser-sync start -s 'webfonts-demo' -f 'webfonts-demo'",
+    "copy-to-webfonts-dist": "mkdir -p ./webfonts-demo/dist && cp ./fonts/Mono/RedHatMono/webfonts/*-VF.woff2 ./webfonts-demo/dist && cp ./fonts/Proportional/{RedHatDisplay,RedHatText}/webfonts/*-VF.woff2 ./webfonts-demo/dist",
     "test": ""
   },
   "keywords": [

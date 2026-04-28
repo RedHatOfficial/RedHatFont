@@ -2,3 +2,6 @@
 
 # Ignore virtual environment Python files for compiling the font.
 venv
+
+# Only used for Github pages demo.
+webfonts-demo/dist
