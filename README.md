@@ -28,7 +28,7 @@ There are two versions of the variable fonts: with and without VF in the name. I
 
 ## Building the Fonts
 
-From terminal, run the build script at `sources/build-all.sh`. Fonts output to `fonts/`.
+From terminal, run the build script at `source/build-all.sh`. Fonts output to `fonts/`.
 
 NOTE: The first time you build, you will need to set up a virtual environment and install dependencies:
 
@@ -117,6 +117,8 @@ gftools builder source/Proportional/RedHatDisplay/config.yaml
 ```bash
 gftools builder source/Proportional/RedHatText/config.yaml
 ```
+
+To build all three families at once, run `source/build-all.sh`, which executes the commands above in sequence.
 
 
 ## Installation
